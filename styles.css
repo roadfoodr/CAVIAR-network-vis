@@ -21,3 +21,14 @@ div.tooltip {
     paint-order: stroke;
 */
 }
+
+/*see https://chartio.com/resources/tutorials/how-to-resize-an-svg-when-the-window-is-resized-in-d3-js/ */
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 97.5%;
+    padding-bottom: 100%;
+    margin: 10px 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
