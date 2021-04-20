@@ -14,7 +14,8 @@ const margin = {top:30, right:30, left:20, bottom:30}
 const innerHeight = outerHeight - margin.top - margin.bottom;
 const innerWidth = outerWidth - margin.left - margin.right;
 
-var tooltip = d3.select("#visualization_canvas").append("div")	
+//var tooltip = d3.select("#visualization_canvas").append("div")	
+var tooltip = d3.select("body").append("div")	
     .attr("class", "tooltip")
     .style("opacity", 0);
 
@@ -134,13 +135,15 @@ function mouseOver(event, d){
     tooltip.transition()		
                 .duration(200)		
                 .style("opacity", .95);
+        console.log((event.pageY + 1 ) + 'px')
+
     tooltip.html(
             `<strong>${d.full_name}</strong><br>`)
                 // ### TODO: these offset computations aren't working with the resizable SVG 
                 // ### TODO: also need to constrain y when close to bottom
-                .style('top', event.pageY - 12 + 'px')
-                .style('left', (event.pageX + 20 > innerWidth - 100 ?
-                                innerWidth - 100 : event.pageX + 20) + 'px')
+                .style('top', (event.pageY + .75*fixedRadius) + 'px')
+                .style('left', (event.pageX + .75*fixedRadius > innerWidth - 62 ?
+                                innerWidth - 62 : event.pageX + .75*fixedRadius) + 'px')
         };
 
 function mouseOut(d){
