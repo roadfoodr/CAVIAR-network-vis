@@ -1,15 +1,15 @@
-const outerHeight = 800;
 const outerWidth = 1000;
+const outerHeight = 800;
 const fixedRadius = 12;
 const linkWidthFactor = 1.25;
 
 console.log(dataset);
 
 const svg = d3.select("#visualization_canvas").append("svg")
+            .attr("preserveAspectRatio", "xMinYMin meet")
             .attr("viewBox", [-outerWidth / 2, -outerHeight / 2, outerWidth, outerHeight])
-            .style("border", "1px solid black");
-
-
+            .classed("svg-content", true);
+            
 const margin = {top:30, right:30, left:20, bottom:30}
 const innerHeight = outerHeight - margin.top - margin.bottom;
 const innerWidth = outerWidth - margin.left - margin.right;
@@ -44,10 +44,16 @@ let node = svg.append("g")
 function ticked() {
     // transform instead of cy, because the node is a 'g'
     // (containing both the node and its label)
-    // ###TODO: constrain within margins
-    // ###TODO: template string
-//    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-    node.attr("transform", function(d) { return `translate(${d.x}, ${d.y})`; })
+    node.attr("transform", function(d) { 
+        xConstrained = (d.x < -outerWidth/2 + fixedRadius) ? 
+            -outerWidth/2 + fixedRadius : d.x;
+        xConstrained = (xConstrained > outerWidth/2 - fixedRadius) ?
+            outerWidth/2 - fixedRadius : xConstrained;
+        yConstrained = (d.y < -outerHeight/2 + fixedRadius) ? 
+            -outerHeight/2 + fixedRadius : d.y;
+        yConstrained = (yConstrained > outerHeight/2 - fixedRadius) ?
+            outerHeight/2 - fixedRadius : yConstrained;
+        return `translate(${xConstrained}, ${yConstrained})`; })
 
     link.attr("x1", d => d.source.x)
         .attr("y1", d => d.source.y)
@@ -129,7 +135,9 @@ function mouseOver(event, d){
                 .duration(200)		
                 .style("opacity", .95);
     tooltip.html(
-            "<strong>" + d.full_name + "</strong><br>")
+            `<strong>${d.full_name}</strong><br>`)
+                // ### TODO: these offset computations aren't working with the resizable SVG 
+                // ### TODO: also need to constrain y when close to bottom
                 .style('top', event.pageY - 12 + 'px')
                 .style('left', (event.pageX + 20 > innerWidth - 100 ?
                                 innerWidth - 100 : event.pageX + 20) + 'px')
