@@ -22,8 +22,8 @@ dataset = ({
   },
 ],
   links: [
-    {source: "n1", target: "n2"},
-    {source: "n2", target: "n3"},
+    {source: "n1", target: "n2", weight: 1},
+    {source: "n2", target: "n3", weight: 2},
 
   ]
     })
@@ -57,9 +57,8 @@ dataset2 = ({
   },
 ],
   links: [
-    {source: "n1", target: "n2"},
-    {source: "n2", target: "n3"},
-    {source: "n4", target: "n5"},
+    {source: "n2", target: "n3", weight: 2},
+    {source: "n4", target: "n5", weight: 5},
 
   ]
     })

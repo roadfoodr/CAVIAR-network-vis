@@ -1,12 +1,14 @@
 const outerHeight = 800;
 const outerWidth = 1000;
-const fixedRadius = 11;
+const fixedRadius = 12;
+const linkWidthFactor = 1.25;
 
 console.log(dataset);
 
 const svg = d3.select("#visualization_canvas").append("svg")
             .attr("viewBox", [-outerWidth / 2, -outerHeight / 2, outerWidth, outerHeight])
             .style("border", "1px solid black");
+
 
 const margin = {top:30, right:30, left:20, bottom:30}
 const innerHeight = outerHeight - margin.top - margin.bottom;
@@ -20,25 +22,32 @@ colorScale = d3.scaleOrdinal(d3.schemeTableau10)
 
 const simulation = d3.forceSimulation()
         .force("charge", d3.forceManyBody().strength(-5))
-        .force("link", d3.forceLink().id(d => d.id))
+        .force("link", d3.forceLink().id(d => d.id)
+            .distance(d => 30 + 42/d.weight))
         .force("center", d3.forceCenter().strength(.05))
         .force("collision", d3.forceCollide().radius(fixedRadius+3))
         .on("tick", ticked);
 
 let link = svg.append("g")
-      .attr("stroke", "#000")
-      .attr("stroke-width", 1.25)
+      .attr("stroke", "black")
+//      .attr("stroke-width", 1.25)
     .selectAll("line");
 
-// node 2nd, so it goes on top of link
+// specify node group second, so it goes on top of link
 let node = svg.append("g")
     .selectAll(".circleGroup");
+
+//const t = node.transition()
+//        .duration(1750);
+
 
 function ticked() {
     // transform instead of cy, because the node is a 'g'
     // (containing both the node and its label)
     // ###TODO: constrain within margins
-    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+    // ###TODO: template string
+//    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+    node.attr("transform", function(d) { return `translate(${d.x}, ${d.y})`; })
 
     link.attr("x1", d => d.source.x)
         .attr("y1", d => d.source.y)
@@ -48,7 +57,8 @@ function ticked() {
 
 function update({nodes, links}) {
     // cribbed from https://observablehq.com/@d3/modifying-a-force-directed-graph
-    
+    // Does the key function handle this automatically?  https://observablehq.com/@d3/selection-join
+    //  -- answer: apparently not
     // Make a shallow copy to protect against mutation, while
     // recycling old nodes to preserve position and velocity.
     const old = new Map(node.data().map(d => [d.id, d]));
@@ -57,9 +67,11 @@ function update({nodes, links}) {
 
 //    console.log(nodes)
 //    console.log(node)
+    // ###TODO: link labels?  toggle with radio button?
     link = link
         .data(links, d => [d.source, d.target])
-        .join("line");
+        .join("line")
+        .attr("stroke-width", d => `${d.weight * linkWidthFactor}px`);
 
     node = node
         .data(nodes, d => d.id)
