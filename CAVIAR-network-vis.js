@@ -1,11 +1,13 @@
 const outerWidth = 1000;
 const outerHeight = 800;
 const fixedRadius = 12;
-const linkWidthFactor = 1.5;
+const linkWidthFactor = 1.25;
 
-console.log(dataset);
+//console.log(phase1);
+datasets = [phase1, phase2, phase3, phase4, phase5,
+            phase6, phase7, phase8, phase9, phase10, phase11];
 
-const svg = d3.select("#visualization_canvas").append("svg")
+const svg = d3.select("#vis-canvas").append("svg")
             .attr("preserveAspectRatio", "xMinYMin meet")
             .attr("viewBox", [-outerWidth / 2, -outerHeight / 2, outerWidth, outerHeight])
             .classed("svg-content", true);
@@ -14,7 +16,7 @@ const margin = {top:30, right:30, left:20, bottom:30}
 const innerHeight = outerHeight - margin.top - margin.bottom;
 const innerWidth = outerWidth - margin.left - margin.right;
 
-//var tooltip = d3.select("#visualization_canvas").append("div")	
+//var tooltip = d3.select("#vis-canvas").append("div")	
 var tooltip = d3.select("body").append("div")	
     .attr("class", "tooltip")
     .style("opacity", 0);
@@ -29,7 +31,7 @@ const simulation = d3.forceSimulation()
             .distance(d => 30 + 42/d.weight))
         .force("center", d3.forceCenter().strength(.05))
         .force("collision", d3.forceCollide().radius(fixedRadius+3))
-            // slow down?  ref https://stackoverflow.com/questions/52194044/d3-force-make-nodes-move-slower-on-position-update
+// slow down?  ref https://stackoverflow.com/questions/52194044/d3-force-make-nodes-move-slower-on-position-update
 //            .alphaDecay(.001)
 //            .velocityDecay(0.8)
         .on("tick", ticked);
@@ -41,9 +43,6 @@ let link = svg.append("g")
 // specify node group second, so it goes on top of link
 let node = svg.append("g")
     .selectAll(".circleGroup");
-
-//const t = node.transition()
-//        .duration(1750);
 
 
 function ticked() {
@@ -76,8 +75,6 @@ function update({nodes, links}) {
     nodes = nodes.map(d => Object.assign(old.get(d.id) || {}, d));
     links = links.map(d => Object.assign({}, d));
 
-//    console.log(nodes)
-//    console.log(node)
     // ###TODO: link labels?  toggle with radio button?
     link = link
         .data(links, d => [d.source, d.target])
@@ -88,13 +85,15 @@ function update({nodes, links}) {
         .data(nodes, d => d.id)
         .join(enter => enter.append("g")
         .attr("class", "circleGroup"));
-              
+
+    color_metric = 'degree_cent'    
+
     node.append("circle")
         .attr("r", fixedRadius)
         // see https://github.com/d3/d3-scale-chromatic
 //        .attr("fill", d => colorScale(d.color))
 //        .attr("fill", d => d3.interpolateSpectral(1 - d.betweenness))
-        .attr("fill", d => d3.interpolateRdYlBu(1 - d.betweenness))
+        .attr("fill", d => d3.interpolateRdYlBu(1 - d[color_metric]))
         // to highlight key players
 //        .attr("stroke", d => d.key_player ? "red" : "white")
         .attr("stroke", "white")
@@ -103,7 +102,6 @@ function update({nodes, links}) {
         .on('mouseover', mouseOver)
         .on('mouseout', mouseOut)
         .call(drag(simulation));
-//    console.log(node)
     
     node.append("text")
         .attr("class", "circleText")
@@ -119,31 +117,21 @@ function update({nodes, links}) {
 
 const button = document.querySelector("button");
 draw_index = 0;
-draw_funcs = [draw1, draw2];
 button.addEventListener("click", () => advance_draw());
 
 function advance_draw()
     {
-        draw_funcs[draw_index % draw_funcs.length]();
+        console.log(draw_index + 1)
+        update(datasets[draw_index]);
         draw_index++;
+        draw_index = draw_index % datasets.length;
         return draw_index;
     }
-
-function draw1(){
-    update(dataset);
-}
-
-function draw2(){
-        update(dataset2);
-}
 
 
 function mouseOver(event, d){
 //    console.log(event);
 //    console.log(d);
-    
-    //    console.log(d);
-
     
     tooltip.transition()		
                 .duration(200)		
@@ -165,7 +153,3 @@ function mouseOut(d){
         .duration(200)
         .style("opacity", 0);
 }
-    
-
-
-
