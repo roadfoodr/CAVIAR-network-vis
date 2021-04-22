@@ -7,8 +7,11 @@ phase1 = ({
     "degree_cent":0.8571428571,
     "betweenness":0.9065934066,
     "eigenvector":0.6264507676,
+    "hub":0.7030618922,
+    "authority":0.0118104778,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -17,8 +20,11 @@ phase1 = ({
     "degree_cent":0.0714285714,
     "betweenness":0.0,
     "eigenvector":0.1604817251,
+    "hub":0.0,
+    "authority":0.0639581529,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -27,8 +33,11 @@ phase1 = ({
     "degree_cent":0.1428571429,
     "betweenness":0.0,
     "eigenvector":0.2538416464,
+    "hub":0.0143600689,
+    "authority":0.1357143263,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -37,8 +46,11 @@ phase1 = ({
     "degree_cent":0.0714285714,
     "betweenness":0.0,
     "eigenvector":0.1604817251,
+    "hub":0.0,
+    "authority":0.0319790765,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -47,8 +59,11 @@ phase1 = ({
     "degree_cent":0.0714285714,
     "betweenness":0.0,
     "eigenvector":0.1604817251,
+    "hub":0.0,
+    "authority":0.0639581529,
     "full_name":"Richard Gleeson",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -57,8 +72,11 @@ phase1 = ({
     "degree_cent":0.2142857143,
     "betweenness":0.010989011,
     "eigenvector":0.2296404774,
+    "hub":0.0106853994,
+    "authority":0.0208822858,
     "full_name":"Gaspard Lino",
-    "description":"Broker in Spain.",
+    "description":"Broker in Spain",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -67,8 +85,11 @@ phase1 = ({
     "degree_cent":0.0714285714,
     "betweenness":0.0,
     "eigenvector":0.0439993917,
+    "hub":0.040958729,
+    "authority":0.0002677687,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -77,8 +98,11 @@ phase1 = ({
     "degree_cent":0.0714285714,
     "betweenness":0.0,
     "eigenvector":0.1604817251,
+    "hub":0.0,
+    "authority":0.0319790765,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -87,8 +111,11 @@ phase1 = ({
     "degree_cent":0.0714285714,
     "betweenness":0.0,
     "eigenvector":0.1604817251,
+    "hub":0.0,
+    "authority":0.0639581529,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -97,8 +124,11 @@ phase1 = ({
     "degree_cent":0.0714285714,
     "betweenness":0.0,
     "eigenvector":0.1604817251,
+    "hub":0.0,
+    "authority":0.0319790765,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -107,8 +137,11 @@ phase1 = ({
     "degree_cent":0.1428571429,
     "betweenness":0.0366300366,
     "eigenvector":0.219309843,
+    "hub":0.0180804328,
+    "authority":0.0,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -117,8 +150,11 @@ phase1 = ({
     "degree_cent":0.2142857143,
     "betweenness":0.0366300366,
     "eigenvector":0.3126697642,
+    "hub":0.0394512316,
+    "authority":0.3112057496,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -127,8 +163,11 @@ phase1 = ({
     "degree_cent":0.2857142857,
     "betweenness":0.0531135531,
     "eigenvector":0.3644366304,
+    "hub":0.1714399425,
+    "authority":0.0686862701,
     "full_name":"Lee Gilbert",
-    "description":"Trusted man of Wallace Lee (became an informer after the arrest).",
+    "description":"Trusted man of Wallace Lee (became an informer after the arrest)",
+    "Unnamed: 3":".",
     "key_player":1
   },
   {
@@ -137,8 +176,11 @@ phase1 = ({
     "degree_cent":0.1428571429,
     "betweenness":0.1428571429,
     "eigenvector":0.1717533813,
+    "hub":0.0019623037,
+    "authority":0.1316423571,
     "full_name":"Antonio Iannacci",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -147,8 +189,11 @@ phase1 = ({
     "degree_cent":0.0714285714,
     "betweenness":0.0,
     "eigenvector":0.1604817251,
+    "hub":0.0,
+    "authority":0.0319790765,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   }
 ],
@@ -256,8 +301,11 @@ phase2 = ({
     "degree_cent":0.8260869565,
     "betweenness":0.942687747,
     "eigenvector":0.673912357,
+    "hub":0.9729551684,
+    "authority":0.0002685569,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -266,8 +314,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0000942522,
+    "authority":0.0760300211,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -276,8 +327,11 @@ phase2 = ({
     "degree_cent":0.1304347826,
     "betweenness":0.0019762846,
     "eigenvector":0.2390875414,
+    "hub":0.0076357797,
+    "authority":0.336704379,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -286,8 +340,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0,
+    "authority":0.0543071579,
     "full_name":"Richard Gleeson",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -296,8 +353,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.0328051469,
+    "hub":0.0061038334,
+    "authority":0.0,
     "full_name":"Gaspard Lino",
-    "description":"Broker in Spain.",
+    "description":"Broker in Spain",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -306,8 +366,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.0364344403,
+    "hub":0.0045778751,
+    "authority":0.0000000002,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -316,8 +379,11 @@ phase2 = ({
     "degree_cent":0.1304347826,
     "betweenness":0.0019762846,
     "eigenvector":0.2390875414,
+    "hub":0.0046832187,
+    "authority":0.0761152619,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -326,8 +392,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0,
+    "authority":0.0543071579,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -336,8 +405,11 @@ phase2 = ({
     "degree_cent":0.0869565217,
     "betweenness":0.0,
     "eigenvector":0.1967069607,
+    "hub":0.0,
+    "authority":0.0326695356,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -346,8 +418,11 @@ phase2 = ({
     "degree_cent":0.0869565217,
     "betweenness":0.0065876153,
     "eigenvector":0.074556125,
+    "hub":0.0,
+    "authority":0.0000002108,
     "full_name":"Samir Rabbat",
-    "description":"Provider in Morocco.",
+    "description":"Provider in Morocco",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -356,8 +431,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0000377009,
+    "authority":0.0,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -366,8 +444,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0000188504,
+    "authority":0.0108614316,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -376,8 +457,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0000188504,
+    "authority":0.0434457263,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -386,8 +470,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0,
+    "authority":0.0108614316,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -396,8 +483,11 @@ phase2 = ({
     "degree_cent":0.0869565217,
     "betweenness":0.0,
     "eigenvector":0.1967069607,
+    "hub":0.0,
+    "authority":0.0326888555,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -406,8 +496,11 @@ phase2 = ({
     "degree_cent":0.0869565217,
     "betweenness":0.0382081686,
     "eigenvector":0.1608765478,
+    "hub":0.0,
+    "authority":0.0434883467,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -416,8 +509,11 @@ phase2 = ({
     "degree_cent":0.0869565217,
     "betweenness":0.0869565217,
     "eigenvector":0.1522633506,
+    "hub":0.0,
+    "authority":0.0869595918,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -426,8 +522,11 @@ phase2 = ({
     "degree_cent":0.0869565217,
     "betweenness":0.0032938076,
     "eigenvector":0.0727825448,
+    "hub":0.0038178898,
+    "authority":0.0,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -436,8 +535,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0000188504,
+    "authority":0.0,
     "full_name":"Gerard Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -446,8 +548,11 @@ phase2 = ({
     "degree_cent":0.1304347826,
     "betweenness":0.0830039526,
     "eigenvector":0.1769397881,
+    "hub":0.0000188652,
+    "authority":0.010904052,
     "full_name":"Lee Gilbert",
-    "description":"Trusted man of Wallace Lee (became an informer after the arrest).",
+    "description":"Trusted man of Wallace Lee (became an informer after the arrest)",
+    "Unnamed: 3":".",
     "key_player":1
   },
   {
@@ -456,8 +561,11 @@ phase2 = ({
     "degree_cent":0.1304347826,
     "betweenness":0.1238471673,
     "eigenvector":0.1691085293,
+    "hub":0.0000000148,
+    "authority":0.0652196939,
     "full_name":"Antonio Iannacci",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -466,8 +574,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0,
+    "authority":0.0325842947,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -476,8 +587,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0,
+    "authority":0.0217228632,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -486,8 +600,11 @@ phase2 = ({
     "degree_cent":0.0434782609,
     "betweenness":0.0,
     "eigenvector":0.1451954288,
+    "hub":0.0000188504,
+    "authority":0.0108614316,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   }
 ],
@@ -645,8 +762,11 @@ phase3 = ({
     "degree_cent":0.84375,
     "betweenness":0.8295026882,
     "eigenvector":0.5938791958,
+    "hub":0.7930997268,
+    "authority":0.0031526343,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -655,8 +775,11 @@ phase3 = ({
     "degree_cent":0.09375,
     "betweenness":0.0010080645,
     "eigenvector":0.1251797538,
+    "hub":0.0008184643,
+    "authority":0.0411292025,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -665,8 +788,11 @@ phase3 = ({
     "degree_cent":0.28125,
     "betweenness":0.0954973118,
     "eigenvector":0.2913048877,
+    "hub":0.0462512287,
+    "authority":0.1495650951,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -675,8 +801,11 @@ phase3 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0143554345,
+    "hub":0.0014319432,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -685,8 +814,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0625,
     "eigenvector":0.0934429841,
+    "hub":0.0,
+    "authority":0.0359973345,
     "full_name":"Richard Gleeson",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -695,8 +827,11 @@ phase3 = ({
     "degree_cent":0.125,
     "betweenness":0.0333333333,
     "eigenvector":0.1868573648,
+    "hub":0.0063257988,
+    "authority":0.0213987405,
     "full_name":"Gaspard Lino",
-    "description":"Broker in Spain.",
+    "description":"Broker in Spain",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -705,8 +840,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1077984186,
+    "hub":0.0,
+    "authority":0.0051424764,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -715,8 +853,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1183564332,
+    "hub":0.0,
+    "authority":0.0154282422,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -725,8 +866,11 @@ phase3 = ({
     "degree_cent":0.15625,
     "betweenness":0.0675403226,
     "eigenvector":0.1765225147,
+    "hub":0.0007391314,
+    "authority":0.0890134046,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -735,8 +879,11 @@ phase3 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0912375483,
+    "hub":0.0,
+    "authority":0.0154234509,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -745,8 +892,11 @@ phase3 = ({
     "degree_cent":0.09375,
     "betweenness":0.0008064516,
     "eigenvector":0.1786220807,
+    "hub":0.0067020261,
+    "authority":0.0003918904,
     "full_name":"Samir Rabbat",
-    "description":"Provider in Morocco.",
+    "description":"Provider in Morocco",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -755,8 +905,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.135990469,
+    "hub":0.0,
+    "authority":0.010881934,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -765,8 +918,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1183564332,
+    "hub":0.0070817541,
+    "authority":0.0102823006,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -775,8 +931,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1104687189,
+    "hub":0.0,
+    "authority":0.0051464559,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -785,8 +944,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1104687189,
+    "hub":0.0,
+    "authority":0.0154287565,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -795,8 +957,11 @@ phase3 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0912375483,
+    "hub":0.0,
+    "authority":0.0051411503,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -805,8 +970,11 @@ phase3 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0912375483,
+    "hub":0.0,
+    "authority":0.0102823006,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -815,8 +983,11 @@ phase3 = ({
     "degree_cent":0.15625,
     "betweenness":0.0075268817,
     "eigenvector":0.2278218191,
+    "hub":0.0318020682,
+    "authority":0.0154234509,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -825,8 +996,11 @@ phase3 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0912375483,
+    "hub":0.0001254091,
+    "authority":0.0154234509,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -835,8 +1009,11 @@ phase3 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0271188849,
+    "hub":0.0035408771,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -845,8 +1022,11 @@ phase3 = ({
     "degree_cent":0.09375,
     "betweenness":0.0,
     "eigenvector":0.1636752644,
+    "hub":0.0,
+    "authority":0.005937559,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -855,8 +1035,11 @@ phase3 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0912375483,
+    "hub":0.0,
+    "authority":0.0154234509,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -865,8 +1048,11 @@ phase3 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0912375483,
+    "hub":0.0,
+    "authority":0.0102823006,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -875,8 +1061,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1161356871,
+    "hub":0.0047369582,
+    "authority":0.0257057515,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -885,8 +1074,11 @@ phase3 = ({
     "degree_cent":0.25,
     "betweenness":0.0465725806,
     "eigenvector":0.2774973009,
+    "hub":0.0604549859,
+    "authority":0.1962672999,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -895,8 +1087,11 @@ phase3 = ({
     "degree_cent":0.125,
     "betweenness":0.000672043,
     "eigenvector":0.1940142141,
+    "hub":0.0009740184,
+    "authority":0.0221525768,
     "full_name":"Mohammed Echouafni",
-    "description":"Moroccan investor.",
+    "description":"Moroccan investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -905,8 +1100,11 @@ phase3 = ({
     "degree_cent":0.125,
     "betweenness":0.0299731183,
     "eigenvector":0.1620674744,
+    "hub":0.0,
+    "authority":0.0579644087,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -915,8 +1113,11 @@ phase3 = ({
     "degree_cent":0.125,
     "betweenness":0.0280241935,
     "eigenvector":0.1896475465,
+    "hub":0.0219929276,
+    "authority":0.1535198227,
     "full_name":"Gerard Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -925,8 +1126,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.000672043,
     "eigenvector":0.0536046858,
+    "hub":0.0077685473,
+    "authority":0.0,
     "full_name":"Lee Gilbert",
-    "description":"Trusted man of Wallace Lee (became an informer after the arrest).",
+    "description":"Trusted man of Wallace Lee (became an informer after the arrest)",
+    "Unnamed: 3":".",
     "key_player":1
   },
   {
@@ -935,8 +1139,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1077984186,
+    "hub":0.0002045633,
+    "authority":0.0359880522,
     "full_name":"Antonio Iannacci",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -945,8 +1152,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.12623746,
+    "hub":0.0,
+    "authority":0.0104884528,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -955,8 +1165,11 @@ phase3 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0447529207,
+    "hub":0.0059495715,
+    "authority":0.0002998167,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -965,8 +1178,11 @@ phase3 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.0717668125,
+    "hub":0.0,
+    "authority":0.0013182371,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   }
 ],
@@ -1264,8 +1480,11 @@ phase4 = ({
     "degree_cent":0.71875,
     "betweenness":0.8393097158,
     "eigenvector":0.6103793612,
+    "hub":0.8597937272,
+    "authority":0.0021605478,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1274,8 +1493,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.1057398787,
+    "hub":0.0001645205,
+    "authority":0.0620194286,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1284,8 +1506,11 @@ phase4 = ({
     "degree_cent":0.21875,
     "betweenness":0.090437788,
     "eigenvector":0.2726301929,
+    "hub":0.0239676184,
+    "authority":0.2754662557,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1294,8 +1519,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.1057398787,
+    "hub":0.0,
+    "authority":0.0038762143,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1304,8 +1532,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.1057398787,
+    "hub":0.0001645205,
+    "authority":0.0620194286,
     "full_name":"Richard Gleeson",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1314,8 +1545,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.1057398787,
+    "hub":0.0008226024,
+    "authority":0.0426383572,
     "full_name":"Gaspard Lino",
-    "description":"Broker in Spain.",
+    "description":"Broker in Spain",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1324,8 +1558,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0282130903,
+    "hub":0.0035456238,
+    "authority":0.0000015567,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1334,8 +1571,11 @@ phase4 = ({
     "degree_cent":0.125,
     "betweenness":0.0625,
     "eigenvector":0.1944774247,
+    "hub":0.0059814313,
+    "authority":0.0388701963,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1344,8 +1584,11 @@ phase4 = ({
     "degree_cent":0.125,
     "betweenness":0.0147609447,
     "eigenvector":0.2059095272,
+    "hub":0.0,
+    "authority":0.05890614,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1354,8 +1597,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.1057398787,
+    "hub":0.0015903647,
+    "authority":0.0116286429,
     "full_name":"Samir Rabbat",
-    "description":"Provider in Morocco.",
+    "description":"Provider in Morocco",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1364,8 +1610,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0472297576,
+    "hub":0.0069920298,
+    "authority":0.0002161068,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1374,8 +1623,11 @@ phase4 = ({
     "degree_cent":0.0625,
     "betweenness":0.0625,
     "eigenvector":0.1090114249,
+    "hub":3.738749316e-48,
+    "authority":0.0271335,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1384,8 +1636,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0282130903,
+    "hub":0.0,
+    "authority":0.0000007783,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1394,8 +1649,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.1057398787,
+    "hub":0.0,
+    "authority":0.0271335,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1404,8 +1662,11 @@ phase4 = ({
     "degree_cent":0.09375,
     "betweenness":0.0120967742,
     "eigenvector":0.1111141455,
+    "hub":0.0014951867,
+    "authority":0.0007571521,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1414,8 +1675,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0336908126,
+    "hub":0.0,
+    "authority":0.0000269661,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1424,8 +1688,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.1057398787,
+    "hub":0.0,
+    "authority":0.0038762143,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1434,8 +1701,11 @@ phase4 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.133952969,
+    "hub":0.0,
+    "authority":0.0038769926,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1444,8 +1714,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0188849339,
+    "hub":0.0,
+    "authority":1.472961788e-46,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1454,8 +1727,11 @@ phase4 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1526896086,
+    "hub":0.0067670185,
+    "authority":0.0078189137,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1464,8 +1740,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.1057398787,
+    "hub":0.0000548402,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1474,8 +1753,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0135277338,
+    "hub":0.0,
+    "authority":0.000000001,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1484,8 +1766,11 @@ phase4 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1493369322,
+    "hub":0.0267416262,
+    "authority":0.0351735527,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1494,8 +1779,11 @@ phase4 = ({
     "degree_cent":0.21875,
     "betweenness":0.0795890937,
     "eigenvector":0.2710145305,
+    "hub":0.0073736258,
+    "authority":0.0666503611,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1504,8 +1792,11 @@ phase4 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1526896086,
+    "hub":0.0017465948,
+    "authority":0.0000332426,
     "full_name":"Mohammed Echouafni",
-    "description":"Moroccan investor.",
+    "description":"Moroccan investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1514,8 +1805,11 @@ phase4 = ({
     "degree_cent":0.15625,
     "betweenness":0.0165370584,
     "eigenvector":0.2516609399,
+    "hub":0.0212662302,
+    "authority":0.1755907756,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1524,8 +1818,11 @@ phase4 = ({
     "degree_cent":0.09375,
     "betweenness":0.0474270353,
     "eigenvector":0.1662173424,
+    "hub":0.0153990483,
+    "authority":0.0118945834,
     "full_name":"Gerard Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1534,8 +1831,11 @@ phase4 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1493369322,
+    "hub":0.0089138754,
+    "authority":0.0277087482,
     "full_name":"Lee Gilbert",
-    "description":"Trusted man of Wallace Lee (became an informer after the arrest).",
+    "description":"Trusted man of Wallace Lee (became an informer after the arrest)",
+    "Unnamed: 3":".",
     "key_player":1
   },
   {
@@ -1544,8 +1844,11 @@ phase4 = ({
     "degree_cent":0.1875,
     "betweenness":0.1962125576,
     "eigenvector":0.1628573118,
+    "hub":0.0001726443,
+    "authority":0.0465625258,
     "full_name":"Antonio Iannacci",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1554,8 +1857,11 @@ phase4 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1529696363,
+    "hub":0.00704687,
+    "authority":0.0038762143,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1564,8 +1870,11 @@ phase4 = ({
     "degree_cent":0.0625,
     "betweenness":0.0,
     "eigenvector":0.1526896086,
+    "hub":0.0,
+    "authority":0.0039094569,
     "full_name":"Beverly Ashton",
-    "description":"Spouse of Lino, transports money and documents.",
+    "description":"Spouse of Lino, transports money and documents",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1574,8 +1883,11 @@ phase4 = ({
     "degree_cent":0.09375,
     "betweenness":0.0625,
     "eigenvector":0.0780883202,
+    "hub":0.0000000011,
+    "authority":0.0001720899,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1584,8 +1896,11 @@ phase4 = ({
     "degree_cent":0.03125,
     "betweenness":0.0,
     "eigenvector":0.0282130903,
+    "hub":0.0,
+    "authority":0.0000015567,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   }
 ],
@@ -1843,8 +2158,11 @@ phase5 = ({
     "degree_cent":0.7096774194,
     "betweenness":0.8838709677,
     "eigenvector":0.6401993761,
+    "hub":0.9064976003,
+    "authority":0.0005813636,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1853,8 +2171,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0000379515,
+    "authority":0.0372653023,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1863,8 +2184,11 @@ phase5 = ({
     "degree_cent":0.1612903226,
     "betweenness":0.0440860215,
     "eigenvector":0.2756749702,
+    "hub":0.0105361105,
+    "authority":0.3235857313,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1873,8 +2197,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0,
+    "authority":0.0372653023,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1883,8 +2210,11 @@ phase5 = ({
     "degree_cent":0.064516129,
     "betweenness":0.0,
     "eigenvector":0.1508688339,
+    "hub":0.0,
+    "authority":0.0372986673,
     "full_name":"Richard Gleeson",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1893,8 +2223,11 @@ phase5 = ({
     "degree_cent":0.064516129,
     "betweenness":0.0,
     "eigenvector":0.1508688339,
+    "hub":0.0003795155,
+    "authority":0.0373007494,
     "full_name":"Gaspard Lino",
-    "description":"Broker in Spain.",
+    "description":"Broker in Spain",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1903,8 +2236,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.029901877,
+    "hub":0.0016247663,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1913,8 +2249,11 @@ phase5 = ({
     "degree_cent":0.064516129,
     "betweenness":0.0,
     "eigenvector":0.1508688339,
+    "hub":0.0024348654,
+    "authority":0.0124217674,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1923,8 +2262,11 @@ phase5 = ({
     "degree_cent":0.064516129,
     "betweenness":0.0,
     "eigenvector":0.1061622702,
+    "hub":0.0,
+    "authority":0.0009473121,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1933,8 +2275,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0007210794,
+    "authority":0.0,
     "full_name":"Samir Rabbat",
-    "description":"Provider in Morocco.",
+    "description":"Provider in Morocco",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1943,8 +2288,11 @@ phase5 = ({
     "degree_cent":0.2580645161,
     "betweenness":0.2698924731,
     "eigenvector":0.2809733678,
+    "hub":0.024029667,
+    "authority":0.0257434401,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1953,8 +2301,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.0451758025,
+    "hub":0.0,
+    "authority":0.0000015616,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1963,8 +2314,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0,
+    "authority":0.0248435348,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1973,8 +2327,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.053586444,
+    "hub":0.0033610751,
+    "authority":0.0,
     "full_name":"Oscar Nieri",
-    "description":"The handyman of Morales.",
+    "description":"The handyman of Morales",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -1983,8 +2340,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.053586444,
+    "hub":0.0050416126,
+    "authority":0.0003292793,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -1993,8 +2353,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0000379515,
+    "authority":0.0124217674,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2003,8 +2366,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.053586444,
+    "hub":0.0,
+    "authority":0.0003292793,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2013,8 +2379,11 @@ phase5 = ({
     "degree_cent":0.1290322581,
     "betweenness":0.064516129,
     "eigenvector":0.2368736367,
+    "hub":0.0001139566,
+    "authority":0.0139871122,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2023,8 +2392,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.053586444,
+    "hub":0.0016805375,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2033,8 +2405,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0,
+    "authority":0.0124217674,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2043,8 +2418,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0,
+    "authority":0.0124217674,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2053,8 +2431,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0,
+    "authority":0.0372653023,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2063,8 +2444,11 @@ phase5 = ({
     "degree_cent":0.064516129,
     "betweenness":0.0,
     "eigenvector":0.1519974895,
+    "hub":0.0017006694,
+    "authority":0.086952372,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2073,8 +2457,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0000379515,
+    "authority":0.0124217674,
     "full_name":"Salvatore Panetta",
-    "description":"Transport arrangements manager.",
+    "description":"Transport arrangements manager",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2083,8 +2470,11 @@ phase5 = ({
     "degree_cent":0.064516129,
     "betweenness":0.064516129,
     "eigenvector":0.1267041614,
+    "hub":5.714028932e-62,
+    "authority":0.0249327479,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2093,8 +2483,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0000759031,
+    "authority":0.0,
     "full_name":"Mohammed Echouafni",
-    "description":"Moroccan investor.",
+    "description":"Moroccan investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2103,8 +2496,11 @@ phase5 = ({
     "degree_cent":0.0967741935,
     "betweenness":0.064516129,
     "eigenvector":0.1812645112,
+    "hub":0.0211996045,
+    "authority":0.2237920039,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2113,8 +2509,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.0241646726,
+    "hub":0.0032552308,
+    "authority":4.376538969e-61,
     "full_name":"Gerard Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2123,8 +2522,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.0345702285,
+    "hub":0.0146091923,
+    "authority":0.0005809978,
     "full_name":"Lee Gilbert",
-    "description":"Trusted man of Wallace Lee (became an informer after the arrest).",
+    "description":"Trusted man of Wallace Lee (became an informer after the arrest)",
+    "Unnamed: 3":".",
     "key_player":1
   },
   {
@@ -2133,8 +2535,11 @@ phase5 = ({
     "degree_cent":0.0967741935,
     "betweenness":0.064516129,
     "eigenvector":0.1567868114,
+    "hub":0.0,
+    "authority":0.0248891034,
     "full_name":"Antonio Iannacci",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2143,8 +2548,11 @@ phase5 = ({
     "degree_cent":0.0322580645,
     "betweenness":0.0,
     "eigenvector":0.1220956125,
+    "hub":0.0000379515,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2153,8 +2561,11 @@ phase5 = ({
     "degree_cent":0.064516129,
     "betweenness":0.0,
     "eigenvector":0.1508688339,
+    "hub":0.0025868075,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   }
 ],
@@ -2367,8 +2778,11 @@ phase6 = ({
     "degree_cent":0.6923076923,
     "betweenness":0.5425641026,
     "eigenvector":0.496655736,
+    "hub":0.0080491381,
+    "authority":0.8054190589,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2377,8 +2791,11 @@ phase6 = ({
     "degree_cent":0.0769230769,
     "betweenness":0.0,
     "eigenvector":0.1487375454,
+    "hub":0.0309870383,
+    "authority":0.0010256827,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2387,8 +2804,11 @@ phase6 = ({
     "degree_cent":0.5384615385,
     "betweenness":0.2271794872,
     "eigenvector":0.4548835982,
+    "hub":0.1952896309,
+    "authority":0.0320900399,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2397,8 +2817,11 @@ phase6 = ({
     "degree_cent":0.0384615385,
     "betweenness":0.0,
     "eigenvector":0.0776333092,
+    "hub":0.0,
+    "authority":0.0001282103,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2407,8 +2830,11 @@ phase6 = ({
     "degree_cent":0.1153846154,
     "betweenness":0.0,
     "eigenvector":0.1824812758,
+    "hub":0.1879998001,
+    "authority":0.0017949446,
     "full_name":"Richard Gleeson",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2417,8 +2843,11 @@ phase6 = ({
     "degree_cent":0.0384615385,
     "betweenness":0.0,
     "eigenvector":0.0776333092,
+    "hub":0.0215194484,
+    "authority":0.0,
     "full_name":"Gaspard Lino",
-    "description":"Broker in Spain.",
+    "description":"Broker in Spain",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2427,8 +2856,11 @@ phase6 = ({
     "degree_cent":0.1538461538,
     "betweenness":0.001025641,
     "eigenvector":0.2158726817,
+    "hub":0.0061484138,
+    "authority":0.0138494994,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2437,8 +2869,11 @@ phase6 = ({
     "degree_cent":0.0769230769,
     "betweenness":0.0,
     "eigenvector":0.112085248,
+    "hub":0.0,
+    "authority":0.0095212525,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2447,8 +2882,11 @@ phase6 = ({
     "degree_cent":0.0769230769,
     "betweenness":0.0,
     "eigenvector":0.0920166898,
+    "hub":0.1018451108,
+    "authority":0.0,
     "full_name":"Samir Rabbat",
-    "description":"Provider in Morocco.",
+    "description":"Provider in Morocco",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2457,8 +2895,11 @@ phase6 = ({
     "degree_cent":0.3846153846,
     "betweenness":0.3820512821,
     "eigenvector":0.2621669289,
+    "hub":0.0118823082,
+    "authority":0.0541081144,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2467,8 +2908,11 @@ phase6 = ({
     "degree_cent":0.0384615385,
     "betweenness":0.0,
     "eigenvector":0.0409810118,
+    "hub":0.0004130509,
+    "authority":0.0005678004,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2477,8 +2921,11 @@ phase6 = ({
     "degree_cent":0.0769230769,
     "betweenness":0.0,
     "eigenvector":0.112085248,
+    "hub":0.0002065255,
+    "authority":0.0038677291,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2487,8 +2934,11 @@ phase6 = ({
     "degree_cent":0.1153846154,
     "betweenness":0.0,
     "eigenvector":0.1950952232,
+    "hub":0.0034205002,
+    "authority":0.0002564207,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2497,8 +2947,11 @@ phase6 = ({
     "degree_cent":0.0384615385,
     "betweenness":0.0,
     "eigenvector":0.0409810118,
+    "hub":0.0030978819,
+    "authority":0.0047316701,
     "full_name":"Oscar Nieri",
-    "description":"The handyman of Morales.",
+    "description":"The handyman of Morales",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2507,8 +2960,11 @@ phase6 = ({
     "degree_cent":0.0384615385,
     "betweenness":0.0,
     "eigenvector":0.0409810118,
+    "hub":0.0016522037,
+    "authority":0.005867271,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2517,8 +2973,11 @@ phase6 = ({
     "degree_cent":0.1153846154,
     "betweenness":0.0,
     "eigenvector":0.1950952232,
+    "hub":0.2306880034,
+    "authority":0.0034760886,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2527,8 +2986,11 @@ phase6 = ({
     "degree_cent":0.0769230769,
     "betweenness":0.0,
     "eigenvector":0.0920166898,
+    "hub":0.0307420692,
+    "authority":0.0129778813,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2537,8 +2999,11 @@ phase6 = ({
     "degree_cent":0.0384615385,
     "betweenness":0.0,
     "eigenvector":0.0409810118,
+    "hub":0.0002065255,
+    "authority":0.0005678004,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2547,8 +3012,11 @@ phase6 = ({
     "degree_cent":0.0384615385,
     "betweenness":0.0,
     "eigenvector":0.0409810118,
+    "hub":0.0,
+    "authority":0.0001892668,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2557,8 +3025,11 @@ phase6 = ({
     "degree_cent":0.2692307692,
     "betweenness":0.0984615385,
     "eigenvector":0.2965680365,
+    "hub":0.1296908605,
+    "authority":0.0293180929,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2567,8 +3038,11 @@ phase6 = ({
     "degree_cent":0.0769230769,
     "betweenness":0.0,
     "eigenvector":0.1487375454,
+    "hub":0.006393383,
+    "authority":0.0033670826,
     "full_name":"Roderik Janouska",
-    "description":"Individual with airport contacts.",
+    "description":"Individual with airport contacts",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2577,8 +3051,11 @@ phase6 = ({
     "degree_cent":0.0384615385,
     "betweenness":0.0,
     "eigenvector":0.0463576778,
+    "hub":0.0017904694,
+    "authority":0.0061973247,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2587,8 +3064,11 @@ phase6 = ({
     "degree_cent":0.0384615385,
     "betweenness":0.0,
     "eigenvector":0.0776333092,
+    "hub":0.0030742069,
+    "authority":0.0001282103,
     "full_name":"Salvatore Panetta",
-    "description":"Transport arrangements manager.",
+    "description":"Transport arrangements manager",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2597,8 +3077,11 @@ phase6 = ({
     "degree_cent":0.0769230769,
     "betweenness":0.0,
     "eigenvector":0.1487375454,
+    "hub":0.0030742069,
+    "authority":0.0046491859,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2607,8 +3090,11 @@ phase6 = ({
     "degree_cent":0.0769230769,
     "betweenness":0.0,
     "eigenvector":0.1162441653,
+    "hub":0.0061709388,
+    "authority":0.0,
     "full_name":"Mohammed Echouafni",
-    "description":"Moroccan investor.",
+    "description":"Moroccan investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2617,8 +3103,11 @@ phase6 = ({
     "degree_cent":0.1923076923,
     "betweenness":0.0102564103,
     "eigenvector":0.2470093996,
+    "hub":0.0063131804,
+    "authority":0.0059013724,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2627,8 +3116,11 @@ phase6 = ({
     "degree_cent":0.0769230769,
     "betweenness":0.0,
     "eigenvector":0.1487375454,
+    "hub":0.0093451053,
+    "authority":0.0,
     "full_name":"Patrick Lee",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   }
 ],
@@ -2881,8 +3373,11 @@ phase7 = ({
     "degree_cent":0.6857142857,
     "betweenness":0.5893557423,
     "eigenvector":0.6019866851,
+    "hub":0.0068067828,
+    "authority":0.7274223408,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2891,8 +3386,11 @@ phase7 = ({
     "degree_cent":0.0571428571,
     "betweenness":0.0,
     "eigenvector":0.1661222177,
+    "hub":0.0307308242,
+    "authority":0.008378406,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2901,8 +3399,11 @@ phase7 = ({
     "degree_cent":0.2857142857,
     "betweenness":0.0733893557,
     "eigenvector":0.3724684836,
+    "hub":0.3433215968,
+    "authority":0.0068941238,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2911,8 +3412,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.0,
+    "authority":0.0001511307,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2921,8 +3425,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.0,
+    "authority":0.0004533921,
     "full_name":"Richard Gleeson",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2931,8 +3438,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.0204872161,
+    "authority":0.0007556535,
     "full_name":"Gaspard Lino",
-    "description":"Broker in Spain.",
+    "description":"Broker in Spain",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2941,8 +3451,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.0,
+    "authority":0.0001511307,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2951,8 +3464,11 @@ phase7 = ({
     "degree_cent":0.0857142857,
     "betweenness":0.0,
     "eigenvector":0.2002621047,
+    "hub":0.0010829941,
+    "authority":0.0916384869,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2961,8 +3477,11 @@ phase7 = ({
     "degree_cent":0.0571428571,
     "betweenness":0.0,
     "eigenvector":0.1237156198,
+    "hub":0.1500334355,
+    "authority":0.0001511307,
     "full_name":"Samir Rabbat",
-    "description":"Provider in Morocco.",
+    "description":"Provider in Morocco",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2971,8 +3490,11 @@ phase7 = ({
     "degree_cent":0.1428571429,
     "betweenness":0.0168067227,
     "eigenvector":0.0000001072,
+    "hub":1.397714744e-58,
+    "authority":5.981405276e-31,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -2981,8 +3503,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.0,
+    "authority":0.0003022614,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -2991,8 +3516,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.005121804,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3001,8 +3529,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.0000000479,
+    "hub":1.684610654e-32,
+    "authority":0.0,
     "full_name":"Johnny Pacheco",
-    "description":"Cocaine provider.",
+    "description":"Cocaine provider",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3011,8 +3542,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.0000000479,
+    "hub":4.211526634e-33,
+    "authority":0.0,
     "full_name":"Oscar Nieri",
-    "description":"The handyman of Morales.",
+    "description":"The handyman of Morales",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3021,8 +3555,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.0000000479,
+    "hub":2.52691598e-32,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3031,8 +3568,11 @@ phase7 = ({
     "degree_cent":0.1142857143,
     "betweenness":0.0112044818,
     "eigenvector":0.2278336534,
+    "hub":0.1076027203,
+    "authority":0.0101699109,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3041,8 +3581,11 @@ phase7 = ({
     "degree_cent":0.0571428571,
     "betweenness":0.0,
     "eigenvector":0.1237156198,
+    "hub":0.0256090201,
+    "authority":0.0266494799,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3051,8 +3594,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.0000000479,
+    "hub":4.211526634e-33,
+    "authority":1.985099245e-56,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3061,8 +3607,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.0,
+    "authority":0.0001511307,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3071,8 +3620,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.005121804,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3081,8 +3633,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.005121804,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3091,8 +3646,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.0267702507,
+    "hub":0.0,
+    "authority":0.0009253932,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3101,8 +3659,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.0,
+    "authority":0.0001511307,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3111,8 +3672,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.0563398443,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3121,8 +3685,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.1026250858,
+    "hub":0.0563398443,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3131,8 +3698,11 @@ phase7 = ({
     "degree_cent":0.0571428571,
     "betweenness":0.0,
     "eigenvector":0.0974830838,
+    "hub":0.0002168503,
+    "authority":0.0228682576,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3141,8 +3711,11 @@ phase7 = ({
     "degree_cent":0.0285714286,
     "betweenness":0.0,
     "eigenvector":0.0000000479,
+    "hub":4.211526634e-33,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3151,8 +3724,11 @@ phase7 = ({
     "degree_cent":0.1428571429,
     "betweenness":0.1344537815,
     "eigenvector":0.157032315,
+    "hub":0.0208394203,
+    "authority":0.0063677889,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3161,8 +3737,11 @@ phase7 = ({
     "degree_cent":0.0857142857,
     "betweenness":0.0,
     "eigenvector":0.2049624427,
+    "hub":0.066655059,
+    "authority":0.0182681189,
     "full_name":"Roderik Janouska",
-    "description":"Individual with airport contacts.",
+    "description":"Individual with airport contacts",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3171,8 +3750,11 @@ phase7 = ({
     "degree_cent":0.0571428571,
     "betweenness":0.0,
     "eigenvector":0.0322718867,
+    "hub":0.0003171581,
+    "authority":0.0041701369,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3181,8 +3763,11 @@ phase7 = ({
     "degree_cent":0.0571428571,
     "betweenness":0.0,
     "eigenvector":0.0322718867,
+    "hub":0.0000880862,
+    "authority":0.0004697385,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3191,8 +3776,11 @@ phase7 = ({
     "degree_cent":0.0571428571,
     "betweenness":0.0,
     "eigenvector":0.1348643757,
+    "hub":0.0,
+    "authority":0.0035692486,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3201,8 +3789,11 @@ phase7 = ({
     "degree_cent":0.0857142857,
     "betweenness":0.0,
     "eigenvector":0.2002621047,
+    "hub":0.0006452295,
+    "authority":0.0307623691,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3211,8 +3802,11 @@ phase7 = ({
     "degree_cent":0.1142857143,
     "betweenness":0.0316526611,
     "eigenvector":0.1993593669,
+    "hub":0.0205440998,
+    "authority":0.0307980862,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3221,8 +3815,11 @@ phase7 = ({
     "degree_cent":0.0857142857,
     "betweenness":0.0019607843,
     "eigenvector":0.1891133488,
+    "hub":0.0769744063,
+    "authority":0.0003022614,
     "full_name":"Patrick Lee",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3231,8 +3828,11 @@ phase7 = ({
     "degree_cent":0.0571428571,
     "betweenness":0.0,
     "eigenvector":0.0974830838,
+    "hub":0.0,
+    "authority":0.0080788922,
     "full_name":"Lee Gilbert",
-    "description":"Trusted man of Wallace Lee (became an informer after the arrest).",
+    "description":"Trusted man of Wallace Lee (became an informer after the arrest)",
+    "Unnamed: 3":".",
     "key_player":1
   }
 ],
@@ -3495,8 +4095,11 @@ phase8 = ({
     "degree_cent":0.487804878,
     "betweenness":0.5536585366,
     "eigenvector":0.544130584,
+    "hub":0.8258784628,
+    "authority":0.0020381015,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3505,8 +4108,11 @@ phase8 = ({
     "degree_cent":0.0975609756,
     "betweenness":0.0552845528,
     "eigenvector":0.1901801815,
+    "hub":0.0095328259,
+    "authority":0.0243587631,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3515,8 +4121,11 @@ phase8 = ({
     "degree_cent":0.3170731707,
     "betweenness":0.3146341463,
     "eigenvector":0.4330067613,
+    "hub":0.0173796017,
+    "authority":0.4671711455,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3525,8 +4134,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0927452249,
+    "hub":0.0000411939,
+    "authority":0.0121775667,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3535,8 +4147,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0927452249,
+    "hub":0.0000411939,
+    "authority":0.0,
     "full_name":"Gaspard Lino",
-    "description":"Broker in Spain.",
+    "description":"Broker in Spain",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3545,8 +4160,11 @@ phase8 = ({
     "degree_cent":0.0731707317,
     "betweenness":0.0,
     "eigenvector":0.2007708116,
+    "hub":0.0,
+    "authority":0.0134359576,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3555,8 +4173,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.1391741939,
+    "hub":0.0,
+    "authority":0.0061703979,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3565,8 +4186,11 @@ phase8 = ({
     "degree_cent":0.0731707317,
     "betweenness":0.0487804878,
     "eigenvector":0.171533452,
+    "hub":0.0094550979,
+    "authority":0.0426214834,
     "full_name":"Samir Rabbat",
-    "description":"Provider in Morocco.",
+    "description":"Provider in Morocco",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3575,8 +4199,11 @@ phase8 = ({
     "degree_cent":0.243902439,
     "betweenness":0.3567073171,
     "eigenvector":0.057752633,
+    "hub":0.0020937949,
+    "authority":0.0000785048,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3585,8 +4212,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0098450776,
+    "hub":0.0,
+    "authority":0.0000154365,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3595,8 +4225,11 @@ phase8 = ({
     "degree_cent":0.0731707317,
     "betweenness":0.2634146341,
     "eigenvector":0.1763951186,
+    "hub":0.0094851982,
+    "authority":0.0064638981,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3605,8 +4238,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0098450776,
+    "hub":0.0000396683,
+    "authority":0.0,
     "full_name":"Johnny Pacheco",
-    "description":"Cocaine provider.",
+    "description":"Cocaine provider",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3615,8 +4251,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0098450776,
+    "hub":0.0000095204,
+    "authority":0.0,
     "full_name":"Oscar Nieri",
-    "description":"The handyman of Morales.",
+    "description":"The handyman of Morales",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3625,8 +4264,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0098450776,
+    "hub":0.0000095204,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3635,8 +4277,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.1294407324,
+    "hub":0.0000411939,
+    "authority":0.0185013024,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3645,8 +4290,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.006097561,
     "eigenvector":0.1084765329,
+    "hub":0.0,
+    "authority":0.0365381446,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3655,8 +4303,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0768292683,
     "eigenvector":0.0836498937,
+    "hub":0.0283272526,
+    "authority":0.0000463095,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3665,8 +4316,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0098450776,
+    "hub":0.0000079337,
+    "authority":0.0000154365,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3675,8 +4329,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0098450776,
+    "hub":0.0000047602,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3685,8 +4342,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0927452249,
+    "hub":0.0000411939,
+    "authority":0.01826635,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3695,8 +4355,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0098450776,
+    "hub":0.0000015867,
+    "authority":0.0,
     "full_name":"Ricardo Negrinotti",
-    "description":"Was taking possession of the cocaine in the US to hand it to Brebner.",
+    "description":"Was taking possession of the cocaine in the US to hand it to Brebner",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3705,8 +4368,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.106220466,
+    "hub":0.0004923369,
+    "authority":0.0003265427,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3715,8 +4381,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0324156499,
+    "hub":0.0,
+    "authority":0.0000702807,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3725,8 +4394,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0292373596,
+    "hub":0.0,
+    "authority":0.0002091229,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3735,8 +4407,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.1202337851,
+    "hub":0.005434487,
+    "authority":0.0014796372,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3745,8 +4420,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.046428969,
+    "hub":0.0027172435,
+    "authority":0.0000816146,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3755,8 +4433,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.046428969,
+    "hub":0.0,
+    "authority":0.0006529165,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3765,8 +4446,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0366955075,
+    "hub":0.0,
+    "authority":0.0002349524,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3775,8 +4459,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0927452249,
+    "hub":0.0,
+    "authority":0.01826635,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3785,8 +4472,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0048780488,
     "eigenvector":0.0831244764,
+    "hub":0.0,
+    "authority":0.000159932,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3795,8 +4485,11 @@ phase8 = ({
     "degree_cent":0.1463414634,
     "betweenness":0.1182926829,
     "eigenvector":0.2152902139,
+    "hub":0.01062293,
+    "authority":0.0060896908,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3805,8 +4498,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0927452249,
+    "hub":0.0,
+    "authority":0.0365327,
     "full_name":"Roderik Janouska",
-    "description":"Individual with airport contacts.",
+    "description":"Individual with airport contacts",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3815,8 +4511,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0366955075,
+    "hub":0.0001230842,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3825,8 +4524,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0098450776,
+    "hub":0.0000015867,
+    "authority":0.0,
     "full_name":"Richard Brebner",
-    "description":"Was transporting the cocaine from the US to Montreal.",
+    "description":"Was transporting the cocaine from the US to Montreal",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3835,8 +4537,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.1391741939,
+    "hub":0.0,
+    "authority":0.0125040249,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -3845,8 +4550,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.1665500411,
+    "hub":0.0,
+    "authority":0.0488383977,
     "full_name":"Salvatore Panetta",
-    "description":"Transport arrangements manager.",
+    "description":"Transport arrangements manager",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3855,8 +4563,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0927452249,
+    "hub":0.0,
+    "authority":0.0121775667,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3865,8 +4576,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0927452249,
+    "hub":0.0,
+    "authority":0.0060887833,
     "full_name":"Mohammed Echouafni",
-    "description":"Moroccan investor.",
+    "description":"Moroccan investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3875,8 +4589,11 @@ phase8 = ({
     "degree_cent":0.0731707317,
     "betweenness":0.0,
     "eigenvector":0.2007708116,
+    "hub":0.0664096829,
+    "authority":0.073577924,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3885,8 +4602,11 @@ phase8 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0020325203,
     "eigenvector":0.0922942787,
+    "hub":0.0007385054,
+    "authority":0.000128131,
     "full_name":"Gerard Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3895,8 +4615,11 @@ phase8 = ({
     "degree_cent":0.2195121951,
     "betweenness":0.1774390244,
     "eigenvector":0.2723961131,
+    "hub":0.011070144,
+    "authority":0.1344377907,
     "full_name":"Patrick Lee",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -3905,8 +4628,11 @@ phase8 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.046428969,
+    "hub":0.0,
+    "authority":0.0002448437,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   }
 ],
@@ -4214,8 +4940,11 @@ phase9 = ({
     "degree_cent":0.303030303,
     "betweenness":0.2490530303,
     "eigenvector":0.4589575176,
+    "hub":0.587933606,
+    "authority":0.0161569155,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4224,8 +4953,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0935874387,
+    "hub":0.0,
+    "authority":0.0022949673,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4234,8 +4966,11 @@ phase9 = ({
     "degree_cent":0.3333333333,
     "betweenness":0.5762310606,
     "eigenvector":0.4679877147,
+    "hub":0.1394654964,
+    "authority":0.0674938729,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4244,8 +4979,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0917810236,
+    "hub":0.0,
+    "authority":0.0096747113,
     "full_name":"Gaspard Lino",
-    "description":"Broker in Spain.",
+    "description":"Broker in Spain",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4254,8 +4992,11 @@ phase9 = ({
     "degree_cent":0.0606060606,
     "betweenness":0.0877525253,
     "eigenvector":0.1004095105,
+    "hub":2.336361696e-71,
+    "authority":0.0022949673,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4264,8 +5005,11 @@ phase9 = ({
     "degree_cent":0.0606060606,
     "betweenness":0.0,
     "eigenvector":0.1853684622,
+    "hub":0.0027463041,
+    "authority":0.0349193519,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4274,8 +5018,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0917810236,
+    "hub":0.0,
+    "authority":0.0096747113,
     "full_name":"Samir Rabbat",
-    "description":"Provider in Morocco.",
+    "description":"Provider in Morocco",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4284,8 +5031,11 @@ phase9 = ({
     "degree_cent":0.2424242424,
     "betweenness":0.3573232323,
     "eigenvector":0.1406593633,
+    "hub":0.0021572732,
+    "authority":0.002504782,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4294,8 +5044,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0281301136,
+    "hub":0.0,
+    "authority":0.0000709978,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4304,8 +5057,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0281301136,
+    "hub":0.0,
+    "authority":0.0004614857,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4314,8 +5070,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0281301136,
+    "hub":0.0008270576,
+    "authority":0.0003194901,
     "full_name":"Johnny Pacheco",
-    "description":"Cocaine provider.",
+    "description":"Cocaine provider",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4324,8 +5083,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0281301136,
+    "hub":0.0001378429,
+    "authority":0.0001419956,
     "full_name":"Oscar Nieri",
-    "description":"The handyman of Morales.",
+    "description":"The handyman of Morales",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4334,8 +5096,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0281301136,
+    "hub":0.0004135288,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4344,8 +5109,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0281301136,
+    "hub":0.0000689215,
+    "authority":0.0002129934,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4354,8 +5122,11 @@ phase9 = ({
     "degree_cent":0.0606060606,
     "betweenness":0.0198863636,
     "eigenvector":0.0665877617,
+    "hub":0.0,
+    "authority":0.000044281,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4364,8 +5135,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0662692637,
+    "hub":0.0,
+    "authority":0.0002183062,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4374,8 +5148,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0733627205,
+    "hub":0.0,
+    "authority":0.0253169895,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4384,8 +5161,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0733627205,
+    "hub":0.0,
+    "authority":0.0075950969,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4394,8 +5174,11 @@ phase9 = ({
     "degree_cent":0.0606060606,
     "betweenness":0.0,
     "eigenvector":0.1047269118,
+    "hub":0.0616268393,
+    "authority":0.0048378656,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4404,8 +5187,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0565349247,
+    "hub":0.0,
+    "authority":0.0001010149,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4414,8 +5200,11 @@ phase9 = ({
     "degree_cent":0.1515151515,
     "betweenness":0.1319444444,
     "eigenvector":0.2827067986,
+    "hub":0.0061386879,
+    "authority":0.0746416781,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4424,8 +5213,11 @@ phase9 = ({
     "degree_cent":0.0606060606,
     "betweenness":0.0258838384,
     "eigenvector":0.0633569966,
+    "hub":0.0020538369,
+    "authority":8.903390821e-64,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4434,8 +5226,11 @@ phase9 = ({
     "degree_cent":0.0909090909,
     "betweenness":0.0625,
     "eigenvector":0.0341140045,
+    "hub":4.899705604e-65,
+    "authority":8.490935155e-70,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4444,8 +5239,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0733627205,
+    "hub":0.0042787502,
+    "authority":0.0126584948,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4454,8 +5252,11 @@ phase9 = ({
     "degree_cent":0.1818181818,
     "betweenness":0.1156881313,
     "eigenvector":0.3313841025,
+    "hub":0.0132665006,
+    "authority":0.4362518887,
     "full_name":"Salvatore Panetta",
-    "description":"Transport arrangements manager.",
+    "description":"Transport arrangements manager",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4464,8 +5265,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0917810236,
+    "hub":0.0,
+    "authority":0.029024134,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4474,8 +5278,11 @@ phase9 = ({
     "degree_cent":0.0909090909,
     "betweenness":0.0606060606,
     "eigenvector":0.193090356,
+    "hub":0.022207032,
+    "authority":0.0833306396,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4484,8 +5291,11 @@ phase9 = ({
     "degree_cent":0.2424242424,
     "betweenness":0.2362689394,
     "eigenvector":0.3668558585,
+    "hub":0.1538517084,
+    "authority":0.1555007104,
     "full_name":"Patrick Lee",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4494,8 +5304,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0386137761,
+    "hub":0.0022929219,
+    "authority":0.0,
     "full_name":"Lee Gilbert",
-    "description":"Trusted man of Wallace Lee (became an informer after the arrest).",
+    "description":"Trusted man of Wallace Lee (became an informer after the arrest)",
+    "Unnamed: 3":".",
     "key_player":1
   },
   {
@@ -4504,8 +5317,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0935874387,
+    "hub":0.0,
+    "authority":0.0022949673,
     "full_name":"Antonio Iannacci",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4514,8 +5330,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0935874387,
+    "hub":0.0,
+    "authority":0.0022949673,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4524,8 +5343,11 @@ phase9 = ({
     "degree_cent":0.1212121212,
     "betweenness":0.0389835859,
     "eigenvector":0.192309806,
+    "hub":0.0005336924,
+    "authority":0.0146043254,
     "full_name":"Steve Cunha",
-    "description":"Transport manager, owner of a legitimate import company (became an informer after the arrest).",
+    "description":"Transport manager, owner of a legitimate import company (became an informer after the arrest)",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4534,8 +5356,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0068220719,
+    "hub":0.0,
+    "authority":8.903390821e-64,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4544,8 +5369,11 @@ phase9 = ({
     "degree_cent":0.0303030303,
     "betweenness":0.0,
     "eigenvector":0.0733627205,
+    "hub":0.0,
+    "authority":0.0050633979,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   }
 ],
@@ -4783,8 +5611,11 @@ phase10 = ({
     "degree_cent":0.3170731707,
     "betweenness":0.3426829268,
     "eigenvector":0.5080216644,
+    "hub":0.0000000014,
+    "authority":0.0000000003,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4793,8 +5624,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.1038903962,
+    "hub":0.0,
+    "authority":0.0000000001,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4803,8 +5637,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.1038903962,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4813,8 +5650,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0353658537,
     "eigenvector":0.1084247448,
+    "hub":0.0,
+    "authority":0.0000000002,
     "full_name":"Bruno de Quinzio",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4823,8 +5663,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0221728554,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4833,8 +5676,11 @@ phase10 = ({
     "degree_cent":0.1707317073,
     "betweenness":0.0304878049,
     "eigenvector":0.0000165973,
+    "hub":0.9051033922,
+    "authority":0.0000203834,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4843,8 +5689,11 @@ phase10 = ({
     "degree_cent":0.0731707317,
     "betweenness":0.0036585366,
     "eigenvector":0.0000118158,
+    "hub":0.0002937155,
+    "authority":0.5947500341,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4853,8 +5702,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0000054265,
+    "hub":0.0000032155,
+    "authority":0.3507396409,
     "full_name":"Johnny Pacheco",
-    "description":"Cocaine provider.",
+    "description":"Cocaine provider",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4863,8 +5715,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0000054265,
+    "hub":0.0,
+    "authority":0.0103158718,
     "full_name":"Oscar Nieri",
-    "description":"The handyman of Morales.",
+    "description":"The handyman of Morales",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -4873,8 +5728,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0000054265,
+    "hub":0.0,
+    "authority":0.0206317436,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4883,8 +5741,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0062451458,
+    "hub":1.305986207e-106,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4893,8 +5754,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0920190577,
+    "hub":0.0,
+    "authority":0.0000000001,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4903,8 +5767,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0000054265,
+    "hub":0.0,
+    "authority":0.0103158718,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4913,8 +5780,11 @@ phase10 = ({
     "degree_cent":0.0731707317,
     "betweenness":0.0036585366,
     "eigenvector":0.0000118158,
+    "hub":0.0117276505,
+    "authority":0.0131527951,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4923,8 +5793,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0920190577,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4933,8 +5806,11 @@ phase10 = ({
     "degree_cent":0.2195121951,
     "betweenness":0.1743902439,
     "eigenvector":0.369473863,
+    "hub":0.0000000035,
+    "authority":0.0000000003,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4943,8 +5819,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0920190577,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4953,8 +5832,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0920190577,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4963,8 +5845,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.1675764208,
+    "hub":0.0,
+    "authority":0.0000000022,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4973,8 +5858,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0755573631,
+    "hub":0.0,
+    "authority":0.0000000003,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4983,8 +5871,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0755573631,
+    "hub":0.0,
+    "authority":0.0000000017,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -4993,8 +5884,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0755573631,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5003,8 +5897,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.077985782,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5013,8 +5910,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.0000077264,
+    "hub":0.0828716185,
+    "authority":0.0000736474,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5023,8 +5923,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0000054265,
+    "hub":0.0000004019,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5033,8 +5936,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.1038903962,
+    "hub":0.0,
+    "authority":0.0000000002,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5043,8 +5949,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0353658537,
     "eigenvector":0.0305386038,
+    "hub":0.0,
+    "authority":6.623111259e-105,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5053,8 +5962,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0920190577,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5063,8 +5975,11 @@ phase10 = ({
     "degree_cent":0.0731707317,
     "betweenness":0.0682926829,
     "eigenvector":0.1430878918,
+    "hub":0.0,
+    "authority":0.0000000001,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5073,8 +5988,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.1959094539,
+    "hub":0.0,
+    "authority":0.0000000002,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5083,8 +6001,11 @@ phase10 = ({
     "degree_cent":0.1219512195,
     "betweenness":0.0682926829,
     "eigenvector":0.3033629831,
+    "hub":0.0,
+    "authority":0.0000000014,
     "full_name":"Salvatore Panetta",
-    "description":"Transport arrangements manager.",
+    "description":"Transport arrangements manager",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5093,8 +6014,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0353658537,
     "eigenvector":0.1084247448,
+    "hub":0.0,
+    "authority":0.0000000001,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5103,8 +6027,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.136842746,
+    "hub":0.0000000001,
+    "authority":0.0,
     "full_name":"Mohammed Echouafni",
-    "description":"Moroccan investor.",
+    "description":"Moroccan investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5113,8 +6040,11 @@ phase10 = ({
     "degree_cent":0.0731707317,
     "betweenness":0.0018292683,
     "eigenvector":0.1611362041,
+    "hub":0.0000000001,
+    "authority":0.0000000002,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5123,8 +6053,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0221728554,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"Gerard Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5133,8 +6066,11 @@ phase10 = ({
     "degree_cent":0.2682926829,
     "betweenness":0.1884146341,
     "eigenvector":0.4499711787,
+    "hub":0.0000000006,
+    "authority":0.0000000016,
     "full_name":"Patrick Lee",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5143,8 +6079,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0755573631,
+    "hub":0.0,
+    "authority":0.000000001,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5153,8 +6092,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0755573631,
+    "hub":0.0,
+    "authority":0.0000000017,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5163,8 +6105,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.077985782,
+    "hub":0.0,
+    "authority":0.0,
     "full_name":"Steve Cunha",
-    "description":"Transport manager, owner of a legitimate import company (became an informer after the arrest).",
+    "description":"Transport manager, owner of a legitimate import company (became an informer after the arrest)",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5173,8 +6118,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0,
+    "hub":0.0,
+    "authority":6.623111259e-105,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5183,8 +6131,11 @@ phase10 = ({
     "degree_cent":0.0243902439,
     "betweenness":0.0,
     "eigenvector":0.0,
+    "hub":1.305986207e-106,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5193,8 +6144,11 @@ phase10 = ({
     "degree_cent":0.0487804878,
     "betweenness":0.0,
     "eigenvector":0.1959094539,
+    "hub":0.0,
+    "authority":0.0000000001,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   }
 ],
@@ -5462,8 +6416,11 @@ phase11 = ({
     "degree_cent":0.175,
     "betweenness":0.5262820513,
     "eigenvector":0.2557286309,
+    "hub":0.0000793125,
+    "authority":0.0000009824,
     "full_name":"Daniel Serero",
-    "description":"Mastermind of the network.",
+    "description":"Mastermind of the network",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5472,8 +6429,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.114265102,
+    "hub":0.0378920095,
+    "authority":0.0,
     "full_name":"Pierre Perlini",
-    "description":"Principal lieutenant of Serero, he executes Serero's instructions.",
+    "description":"Principal lieutenant of Serero; executes Serero's instructions",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5482,8 +6442,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.0595334724,
+    "hub":0.0000000137,
+    "authority":0.0000035897,
     "full_name":"Samir Rabbat",
-    "description":"Provider in Morocco.",
+    "description":"Provider in Morocco",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5492,8 +6455,11 @@ phase11 = ({
     "degree_cent":0.3,
     "betweenness":0.4299145299,
     "eigenvector":0.490842262,
+    "hub":0.0012870666,
+    "authority":0.9065354231,
     "full_name":"Ernesto Morales",
     "description":"Principal organizer of the cocaine import, intermediary between the Colombians and the Serero organization.",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5502,8 +6468,11 @@ phase11 = ({
     "degree_cent":0.05,
     "betweenness":0.0,
     "eigenvector":0.2217290941,
+    "hub":0.0,
+    "authority":0.0189182342,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5512,8 +6481,11 @@ phase11 = ({
     "degree_cent":0.05,
     "betweenness":0.0923076923,
     "eigenvector":0.1212101968,
+    "hub":0.0637970501,
+    "authority":0.0018591492,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5522,8 +6494,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.114265102,
+    "hub":0.4168121042,
+    "authority":0.0002912687,
     "full_name":"Johnny Pacheco",
-    "description":"Cocaine provider.",
+    "description":"Cocaine provider",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5532,8 +6507,11 @@ phase11 = ({
     "degree_cent":0.05,
     "betweenness":0.0,
     "eigenvector":0.18787226,
+    "hub":0.1389373681,
+    "authority":0.0012606504,
     "full_name":"Oscar Nieri",
-    "description":"The handyman of Morales.",
+    "description":"The handyman of Morales",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5542,8 +6520,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.114265102,
+    "hub":0.0252613396,
+    "authority":0.0001747612,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5552,8 +6533,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.0069450948,
+    "hub":0.0,
+    "authority":0.0000424476,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5562,8 +6546,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.114265102,
+    "hub":0.0,
+    "authority":0.0001165075,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5572,8 +6559,11 @@ phase11 = ({
     "degree_cent":0.1,
     "betweenness":0.0239316239,
     "eigenvector":0.3161897881,
+    "hub":0.0252789042,
+    "authority":0.0069086195,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5582,8 +6572,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.0232116462,
+    "hub":0.0,
+    "authority":0.0000000883,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5592,8 +6585,11 @@ phase11 = ({
     "degree_cent":0.075,
     "betweenness":0.0010683761,
     "eigenvector":0.2178967671,
+    "hub":0.0027918866,
+    "authority":0.0094376255,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5602,8 +6598,11 @@ phase11 = ({
     "degree_cent":0.225,
     "betweenness":0.5540598291,
     "eigenvector":0.4616250274,
+    "hub":0.0347246579,
+    "authority":0.0026701208,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5612,8 +6611,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.114265102,
+    "hub":0.0252613396,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5622,8 +6624,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.1074639921,
+    "hub":0.0000372025,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5632,8 +6637,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.0057133796,
+    "hub":0.0,
+    "authority":0.0000001155,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5642,8 +6650,11 @@ phase11 = ({
     "degree_cent":0.05,
     "betweenness":0.0474358974,
     "eigenvector":0.0298337351,
+    "hub":0.0003126144,
+    "authority":0.0115500165,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5652,8 +6663,11 @@ phase11 = ({
     "degree_cent":0.05,
     "betweenness":0.0,
     "eigenvector":0.0160749963,
+    "hub":0.0000000395,
+    "authority":0.0000000006,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5662,8 +6676,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.0352975085,
+    "hub":0.0,
+    "authority":0.0000003129,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5672,8 +6689,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.114265102,
+    "hub":0.2273520568,
+    "authority":0.0000582537,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5682,8 +6702,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.114265102,
+    "hub":0.0,
+    "authority":0.000233015,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5692,8 +6715,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.0352975085,
+    "hub":0.0,
+    "authority":0.0000002086,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5702,8 +6728,11 @@ phase11 = ({
     "degree_cent":0.175,
     "betweenness":0.3320512821,
     "eigenvector":0.1516199767,
+    "hub":0.0000023043,
+    "authority":0.0000182116,
     "full_name":"Gabrielle Casale",
-    "description":"Charged with recuperating the marijuana.",
+    "description":"Charged with recuperating the marijuana",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5712,8 +6741,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.0116258637,
+    "hub":0.0000000066,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5722,8 +6754,11 @@ phase11 = ({
     "degree_cent":0.125,
     "betweenness":0.1788461538,
     "eigenvector":0.0499380278,
+    "hub":0.0000000002,
+    "authority":0.0000004726,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5732,8 +6767,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.0290552385,
+    "hub":0.0,
+    "authority":0.0000000716,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5742,8 +6780,11 @@ phase11 = ({
     "degree_cent":0.1,
     "betweenness":0.1371794872,
     "eigenvector":0.0997058167,
+    "hub":0.0000004879,
+    "authority":0.0000182734,
     "full_name":"Salvatore Panetta",
-    "description":"Transport arrangements manager.",
+    "description":"Transport arrangements manager",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5752,8 +6793,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":1.461758287e-30,
+    "hub":6.698908209e-98,
+    "authority":0.0,
     "full_name":"Alain Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5762,8 +6806,11 @@ phase11 = ({
     "degree_cent":0.05,
     "betweenness":0.0,
     "eigenvector":0.0862866987,
+    "hub":0.0000003227,
+    "authority":0.0,
     "full_name":"Mohammed Echouafni",
-    "description":"Moroccan investor.",
+    "description":"Moroccan investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5772,8 +6819,11 @@ phase11 = ({
     "degree_cent":0.075,
     "betweenness":0.0057692308,
     "eigenvector":0.114918601,
+    "hub":0.000001056,
+    "authority":0.0000221789,
     "full_name":"Wallace Lee",
     "description":"Takes care of financial affairs",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5782,8 +6832,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":1.461758287e-30,
+    "hub":0.0,
+    "authority":1.602659155e-96,
     "full_name":"Gerard Levy",
-    "description":"Investor and transporter of money.",
+    "description":"Investor and transporter of money",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5792,8 +6845,11 @@ phase11 = ({
     "degree_cent":0.1,
     "betweenness":0.0705128205,
     "eigenvector":0.124806771,
+    "hub":0.0000007915,
+    "authority":0.0000110441,
     "full_name":"Patrick Lee",
-    "description":"Investor.",
+    "description":"Investor",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5802,8 +6858,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.0352975085,
+    "hub":0.0,
+    "authority":0.0000001043,
     "full_name":"Lee Gilbert",
-    "description":"Trusted man of Wallace Lee (became an informer after the arrest).",
+    "description":"Trusted man of Wallace Lee (became an informer after the arrest)",
+    "Unnamed: 3":".",
     "key_player":1
   },
   {
@@ -5812,8 +6871,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.1074639921,
+    "hub":0.0,
+    "authority":0.0172883154,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5822,8 +6884,11 @@ phase11 = ({
     "degree_cent":0.05,
     "betweenness":0.0,
     "eigenvector":0.1581891818,
+    "hub":0.0001686961,
+    "authority":0.0068631655,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5832,8 +6897,11 @@ phase11 = ({
     "degree_cent":0.025,
     "betweenness":0.0,
     "eigenvector":0.1074639921,
+    "hub":0.0,
+    "authority":0.0157166504,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5842,8 +6910,11 @@ phase11 = ({
     "degree_cent":0.05,
     "betweenness":0.0474358974,
     "eigenvector":0.0245417425,
+    "hub":0.0000012762,
+    "authority":0.0000001104,
     "full_name":"Steve Cunha",
-    "description":"Transport manager, owner of a legitimate import company (became an informer after the arrest).",
+    "description":"Transport manager, owner of a legitimate import company (became an informer after the arrest)",
+    "Unnamed: 3":"",
     "key_player":1
   },
   {
@@ -5852,8 +6923,11 @@ phase11 = ({
     "degree_cent":0.05,
     "betweenness":0.0,
     "eigenvector":0.0160749963,
+    "hub":0.0000000795,
+    "authority":0.0,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   },
   {
@@ -5862,8 +6936,11 @@ phase11 = ({
     "degree_cent":0.075,
     "betweenness":0.0006410256,
     "eigenvector":0.0191106603,
+    "hub":0.0000000132,
+    "authority":0.0000000108,
     "full_name":"",
     "description":"",
+    "Unnamed: 3":"",
     "key_player":0
   }
 ],
