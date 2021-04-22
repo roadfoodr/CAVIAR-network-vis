@@ -3,9 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>CAVIAR network</title>
+	<title>CAVIAR network, visualized</title>
 	<meta name="author" content="M Powers">
-	<meta name="description" content="CAVIAR network, vSisualized">
+	<meta name="description" content="CAVIAR network, visualized">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css"  crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/styles.css">
@@ -15,7 +15,25 @@
 <body>
 	<header></header>
 	<main>
-        <button class="pure-button">Click</button>
+        <button class="pure-button" id='prev'>&lt; Phase</button>
+        <button class="pure-button" id='next'>Phase &gt;</button>
+        <form class="pure-form" id="colorButton">
+            <label for="color-degree" class="pure-radio">
+                <input type="radio" id="color-degree" name="optionsRadios" value="degree_cent" checked="" /> Degree centrality
+                </label>
+            <label for="color-between" class="pure-radio">
+                <input type="radio" id="color-between" name="optionsRadios" value="betweenness" /> Betweenness centrality
+            </label>
+            <label for="color-eigenvector" class="pure-radio">
+                <input type="radio" id="color-eigenvector" name="optionsRadios" value="eigenvector" /> Eigenvector centrality
+            </label>
+        </form>
+        <form class="pure-form" id="outlineBox">
+            <label for="highlight-on" class="pure-checkbox">
+                <input type="checkbox" id="highlight-on" value="Yes" />Highlight named players
+            </label>
+        </form>
+
         <div id="vis-canvas" class="svg-container"></div>
     </main>
 	<footer></footer>

@@ -2,6 +2,8 @@ const outerWidth = 1000;
 const outerHeight = 800;
 const fixedRadius = 12;
 const linkWidthFactor = 1.25;
+var color_metric = 'degree_cent';   
+var highlightStrokeColor = 'white';
 
 //console.log(phase1);
 datasets = [phase1, phase2, phase3, phase4, phase5,
@@ -86,8 +88,6 @@ function update({nodes, links}) {
         .join(enter => enter.append("g")
         .attr("class", "circleGroup"));
 
-    color_metric = 'degree_cent'    
-
     node.append("circle")
         .attr("r", fixedRadius)
         // see https://github.com/d3/d3-scale-chromatic
@@ -95,8 +95,8 @@ function update({nodes, links}) {
 //        .attr("fill", d => d3.interpolateSpectral(1 - d.betweenness))
         .attr("fill", d => d3.interpolateRdYlBu(1 - d[color_metric]))
         // to highlight key players
-//        .attr("stroke", d => d.key_player ? "red" : "white")
-        .attr("stroke", "white")
+        .attr("stroke", d => d.key_player ? highlightStrokeColor : "white")
+//        .attr("stroke", "white")
         .attr("stroke-width", "1.25px")
         .attr('opacity', 0.95)
         .on('mouseover', mouseOver)
@@ -114,17 +114,53 @@ function update({nodes, links}) {
       simulation.alpha(1).restart();
     }
 
+// ** Control Elements
+d3.select("#colorButton").on("click", () => updateColor());
 
-const button = document.querySelector("button");
-draw_index = 0;
-button.addEventListener("click", () => advance_draw());
-
-function advance_draw()
+function updateColor()
     {
+        // ref https://stackoverflow.com/questions/29325040/get-value-of-checked-radio-button-using-d3-js
+        color_metric = d3.select('input[name="optionsRadios"]:checked').node().value;
+        console.log(color_metric);
+        d3.selectAll("circle")
+            .attr("fill", d => d3.interpolateRdYlBu(1 - d[color_metric]))
+    }
+
+d3.select("#outlineBox").on("click", () => updateHighlight());
+
+function updateHighlight()
+    {
+        highlight_on = d3.select('input#highlight-on:checked').node();
+        console.log(highlight_on);
+        highlightStrokeColor = highlight_on ? "red" : "white";
+        console.log(highlightStrokeColor);
+
+        d3.selectAll("circle")
+            .attr("stroke", d => d.key_player ? highlightStrokeColor : "white")
+    }
+
+draw_index = -1;
+draw_max = datasets.length;
+
+// ### TODO : how to pass parameters directly from listener?
+d3.select("#prev").on("click", () => advance_minus());
+
+//const btnNext = document.querySelector("button");
+//const btnNext = d3.select("#next");
+//btnNext.addEventListener("click", () => advance_draw(1));
+d3.select("#next").on("click", () => advance_plus());
+
+function advance_plus() { advance_draw(1) }
+function advance_minus() { advance_draw(-1) }
+
+function advance_draw(amt)
+    {
+        draw_index += amt;
+//        draw_index = draw_index % draw_max;
+        draw_index = (draw_index < 0) ? 0 : draw_index;
+        draw_index = (draw_index > draw_max) ? draw_max : draw_index;
         console.log(draw_index + 1)
         update(datasets[draw_index]);
-        draw_index++;
-        draw_index = draw_index % datasets.length;
         return draw_index;
     }
 
