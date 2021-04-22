@@ -145,6 +145,8 @@ d3.select("#next").on("click", () => advance_plus());
 function advance_plus() { advance_draw(1) }
 function advance_minus() { advance_draw(-1) }
 
+const textPhase1 = "(Hover over key players for information.  Drag nodes to reposition.)"
+
 function advance_draw(amt)
     {
         if ((draw_index + amt < 0) || (draw_index + amt > draw_max-1)) return;
@@ -154,6 +156,12 @@ function advance_draw(amt)
 //        draw_index = (draw_index > draw_max-1) ? draw_max-1 : draw_index;
 //        console.log(draw_index + 1)
         update(datasets[draw_index]);
+        
+        d3.select('#text-content h1')
+            .text(`Phase ${draw_index+1}`)
+        d3.select('#text-content #text-copy')
+            .text(draw_index == 0 ? textPhase1 : '')
+
         return draw_index;
     }
 
