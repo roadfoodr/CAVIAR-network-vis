@@ -5,7 +5,6 @@ const linkWidthFactor = 1.25;
 var color_metric = 'degree_cent';   
 var highlightStrokeColor = 'white';
 
-//console.log(phase1);
 datasets = [phase1, phase2, phase3, phase4, phase5,
             phase6, phase7, phase8, phase9, phase10, phase11];
 
@@ -26,9 +25,11 @@ var tooltip = d3.select("body").append("div")
 colorScale = d3.scaleOrdinal(d3.schemeTableau10)
 
 
-// ### TODO is forceX and forceY better than center?
+// ### TODO would forceX and forceY be better than center?
 const simulation = d3.forceSimulation()
-        .force("charge", d3.forceManyBody().strength(-333))
+        .force("charge", d3.forceManyBody()
+               .strength(-250)
+               .distanceMax(200))
         .force("link", d3.forceLink().id(d => d.id)
             .distance(d => 30 + 42/d.weight))
         .force("center", d3.forceCenter().strength(.05))
@@ -42,6 +43,7 @@ let link = svg.append("g")
       .attr("stroke", "#3d3d3d")
 //      .attr("stroke-width", 1.25)
     .selectAll("line");
+
 // specify node group second, so it goes on top of link
 let node = svg.append("g")
     .selectAll(".circleGroup");
@@ -69,15 +71,13 @@ function ticked() {
 
 function update({nodes, links}) {
     // cribbed from https://observablehq.com/@d3/modifying-a-force-directed-graph
-    // Does the key function handle this automatically?  https://observablehq.com/@d3/selection-join
-    //  -- answer: apparently not
     // Make a shallow copy to protect against mutation, while
     // recycling old nodes to preserve position and velocity.
     const old = new Map(node.data().map(d => [d.id, d]));
     nodes = nodes.map(d => Object.assign(old.get(d.id) || {}, d));
     links = links.map(d => Object.assign({}, d));
 
-    // ###TODO: link labels?  toggle with radio button?
+    // ###TODO: link labels?
     link = link
         .data(links, d => [d.source, d.target])
         .join("line")
@@ -92,11 +92,9 @@ function update({nodes, links}) {
         .attr("r", fixedRadius)
         // see https://github.com/d3/d3-scale-chromatic
 //        .attr("fill", d => colorScale(d.color))
-//        .attr("fill", d => d3.interpolateSpectral(1 - d.betweenness))
+//        .attr("fill", d => d3.interpolateSpectral(1 - d[color_metric]))
         .attr("fill", d => d3.interpolateRdYlBu(1 - d[color_metric]))
-        // to highlight key players
         .attr("stroke", d => d.key_player ? highlightStrokeColor : "white")
-//        .attr("stroke", "white")
         .attr("stroke-width", "1.25px")
         .attr('opacity', 0.95)
         .on('mouseover', mouseOver)
@@ -114,14 +112,15 @@ function update({nodes, links}) {
       simulation.alpha(1).restart();
     }
 
+
 // ** Control Elements
+
 d3.select("#colorButton").on("click", () => updateColor());
 
 function updateColor()
     {
         // ref https://stackoverflow.com/questions/29325040/get-value-of-checked-radio-button-using-d3-js
         color_metric = d3.select('input[name="optionsRadios"]:checked').node().value;
-        console.log(color_metric);
         d3.selectAll("circle")
             .attr("fill", d => d3.interpolateRdYlBu(1 - d[color_metric]))
     }
@@ -131,10 +130,7 @@ d3.select("#outlineBox").on("click", () => updateHighlight());
 function updateHighlight()
     {
         highlight_on = d3.select('input#highlight-on:checked').node();
-        console.log(highlight_on);
         highlightStrokeColor = highlight_on ? "red" : "white";
-        console.log(highlightStrokeColor);
-
         d3.selectAll("circle")
             .attr("stroke", d => d.key_player ? highlightStrokeColor : "white")
     }
@@ -144,10 +140,6 @@ draw_max = datasets.length;
 
 // ### TODO : how to pass parameters directly from listener?
 d3.select("#prev").on("click", () => advance_minus());
-
-//const btnNext = document.querySelector("button");
-//const btnNext = d3.select("#next");
-//btnNext.addEventListener("click", () => advance_draw(1));
 d3.select("#next").on("click", () => advance_plus());
 
 function advance_plus() { advance_draw(1) }
@@ -158,7 +150,7 @@ function advance_draw(amt)
         draw_index += amt;
 //        draw_index = draw_index % draw_max;
         draw_index = (draw_index < 0) ? 0 : draw_index;
-        draw_index = (draw_index > draw_max) ? draw_max : draw_index;
+        draw_index = (draw_index > draw_max-1) ? draw_max-1 : draw_index;
         console.log(draw_index + 1)
         update(datasets[draw_index]);
         return draw_index;
