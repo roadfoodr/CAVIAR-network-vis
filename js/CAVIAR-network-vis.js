@@ -161,6 +161,11 @@ function advance_draw(amt)
             .text(`Phase ${draw_index+1}`)
         d3.select('#text-content #text-copy')
             .text(draw_index == 0 ? textPhase1 : '')
+        
+        d3.select('#prev')
+            .style("opacity", draw_index < 1 ? 0 : 100)
+        d3.select('#next')
+            .style("opacity", draw_index >= draw_max-1 ? 0 : 100)
 
         return draw_index;
     }
