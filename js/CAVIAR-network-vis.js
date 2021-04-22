@@ -1,5 +1,5 @@
-const outerWidth = 1000;
 const outerHeight = 800;
+const outerWidth = 900;
 const fixedRadius = 12;
 const linkWidthFactor = 1.25;
 var color_metric = 'degree_cent';   
@@ -147,11 +147,12 @@ function advance_minus() { advance_draw(-1) }
 
 function advance_draw(amt)
     {
+        if ((draw_index + amt < 0) || (draw_index + amt > draw_max-1)) return;
         draw_index += amt;
 //        draw_index = draw_index % draw_max;
-        draw_index = (draw_index < 0) ? 0 : draw_index;
-        draw_index = (draw_index > draw_max-1) ? draw_max-1 : draw_index;
-        console.log(draw_index + 1)
+//        draw_index = (draw_index < 0) ? 0 : draw_index;
+//        draw_index = (draw_index > draw_max-1) ? draw_max-1 : draw_index;
+//        console.log(draw_index + 1)
         update(datasets[draw_index]);
         return draw_index;
     }

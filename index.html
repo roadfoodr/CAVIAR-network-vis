@@ -15,26 +15,41 @@
 <body>
 	<header></header>
 	<main>
-        <button class="pure-button" id='prev'>&lt; Phase</button>
-        <button class="pure-button" id='next'>Phase &gt;</button>
-        <form class="pure-form" id="colorButton">
-            <label for="color-degree" class="pure-radio">
-                <input type="radio" id="color-degree" name="optionsRadios" value="degree_cent" checked="" /> Degree centrality
-                </label>
-            <label for="color-between" class="pure-radio">
-                <input type="radio" id="color-between" name="optionsRadios" value="betweenness" /> Betweenness centrality
-            </label>
-            <label for="color-eigenvector" class="pure-radio">
-                <input type="radio" id="color-eigenvector" name="optionsRadios" value="eigenvector" /> Eigenvector centrality
-            </label>
-        </form>
-        <form class="pure-form" id="outlineBox">
-            <label for="highlight-on" class="pure-checkbox">
-                <input type="checkbox" id="highlight-on" value="Yes" />Highlight named players
-            </label>
-        </form>
+        <div id="text-content">
+            <h1>This is the title</h1>
+            And this is the text
 
-        <div id="vis-canvas" class="svg-container"></div>
+
+        </div>
+        
+        <div id="vis-canvas" class="svg-container">
+            <span id="top-controls">
+                <button class="pure-button" id='prev'>&lt; Prev</button>
+                <button class="pure-button" id='next'>Next &gt;</button>
+            </span>
+        </div>
+        
+        <div id="controls">
+            <div id="control-buttons">
+            <form class="pure-form" id="colorButton">
+                <label for="color-degree" class="pure-radio">
+                    <input type="radio" id="color-degree" name="optionsRadios" value="degree_cent" checked="" /> Degree centrality
+                    </label>
+                <label for="color-between" class="pure-radio">
+                    <input type="radio" id="color-between" name="optionsRadios" value="betweenness" /> Betweenness centrality
+                </label>
+                <label for="color-eigenvector" class="pure-radio">
+                    <input type="radio" id="color-eigenvector" name="optionsRadios" value="eigenvector" /> Eigenvector centrality
+                </label>
+            </form>
+            <form class="pure-form" id="outlineBox">
+                <label for="highlight-on" class="pure-checkbox">
+                    <input type="checkbox" id="highlight-on" value="Yes" />Highlight named players
+                </label>
+            </form>
+            </div>
+        </div>
+           
     </main>
 	<footer></footer>
 	<script type="text/javascript" src="https://d3js.org/d3.v6.min.js"></script>

@@ -1,6 +1,7 @@
 div.tooltip {	
     position: absolute;			
-    text-align: center;			
+    text-align: center;
+    z-index: 99;
     width: 150px;					
     height: 65px;					
     padding: 2px;				
@@ -8,7 +9,7 @@ div.tooltip {
     background: lightsteelblue;	
     border: 0px;		
     border-radius: 8px;			
-    pointer-events: none;			
+    pointer-events: none;		
 }
 
 .circleText {
@@ -22,21 +23,56 @@ div.tooltip {
 */
 }
 
-/*see https://chartio.com/resources/tutorials/how-to-resize-an-svg-when-the-window-is-resized-in-d3-js/ */
-.svg-container {
+#text-content {
     display: inline-block;
     position: relative;
-    width: 97.5%;
-/*    padding-bottom: 100%;*/
-    margin: 10px 10px;
-    vertical-align: top;
-    overflow: hidden;
-    border: 1px solid black;
+    width: 400px;
+    top: 50px;
+    z-index: 90;
+    margin-left: 20px;
+    margin-right: 25px;
 }
+
+.svg-container {
+    display: inline-block;
+    position: fixed;
+/*    top: 10px;*/
+    z-index: 1;
+    margin-left: 0;
+    height: 800px;
+    width: 900px;
+}
+
+
+/*see https://chartio.com/resources/tutorials/how-to-resize-an-svg-when-the-window-is-resized-in-d3-js/ */
 
 .svg-content {
     display: inline-block;
-/*    position: absolute;*/
+    position: relative;
     top: 0;
     left: 0;
+    border: 1px solid black;
+}
+
+#controls {
+    display: inline-block;
+    position: fixed;
+    top: 825px;
+    z-index: 1;
+    margin-left: 0;
+}
+
+#control-buttons {
+    display: inline-block;
+    position: fixed;
+    top: 835px;
+    z-index: 1;
+    margin-left: 30px;
+}
+
+#top-controls {
+    position: relative;
+    top: 50px;
+    left: 10px;
+    z-index: 10;
 }
