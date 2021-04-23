@@ -4,6 +4,7 @@ const fixedRadius = 12;
 const linkWidthFactor = 1.25;
 var color_metric = 'degree_cent';   
 var highlightStrokeColor = 'white';
+var marked_nodes = new Set();
 
 datasets = [phase1, phase2, phase3, phase4, phase5,
             phase6, phase7, phase8, phase9, phase10, phase11];
@@ -22,10 +23,7 @@ var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
-colorScale = d3.scaleOrdinal(d3.schemeTableau10)
-
-
-// ### TODO would forceX and forceY be better than center?
+// ### would forceX and forceY be better than center?
 const simulation = d3.forceSimulation()
         .force("charge", d3.forceManyBody()
                .strength(-250)
@@ -41,10 +39,10 @@ const simulation = d3.forceSimulation()
 
 let link = svg.append("g")
       .attr("stroke", "#3d3d3d")
-//      .attr("stroke-width", 1.25)
+      .attr("stroke-width", 1.25)
     .selectAll("line");
 
-// specify node group second, so it goes on top of link
+// node group is specified second, so it goes on top of link
 let node = svg.append("g")
     .selectAll(".circleGroup");
 
@@ -90,17 +88,15 @@ function update({nodes, links}) {
 
     node.append("circle")
         .attr("r", fixedRadius)
-        // see https://github.com/d3/d3-scale-chromatic
-//        .attr("fill", d => colorScale(d.color))
-//        .attr("fill", d => d3.interpolateSpectral(1 - d[color_metric]))
-        .attr("fill", d => d3.interpolateRdYlBu(1 - d[color_metric]))
-        .attr("stroke", d => d.key_player ? highlightStrokeColor : "white")
-        .attr("stroke-width", "1.25px")
         .attr('opacity', 0.95)
         .on('mouseover', mouseOver)
         .on('mouseout', mouseOut)
+        .on('contextmenu', nodeRightClick)
         .call(drag(simulation));
     
+    updateNodeColor();
+    updateNodeStrokes();
+
     node.append("text")
         .attr("class", "circleText")
         .text(d => d.id)
@@ -115,59 +111,85 @@ function update({nodes, links}) {
 
 // ** Control Elements
 
-d3.select("#colorButton").on("click", () => updateColor());
+d3.select("#colorButton").on("click", () => updateNodeColor());
+d3.select("#outlineBox").on("click", () => updateNodeStrokes());
 
-function updateColor()
+
+function updateNodeColor()
     {
         // ref https://stackoverflow.com/questions/29325040/get-value-of-checked-radio-button-using-d3-js
         color_metric = d3.select('input[name="optionsRadios"]:checked').node().value;
+        // this should actually be computed from all phases, instead of phase-by-phase
+        color_min = d3.min(datasets[phase_index].nodes, d => d[color_metric]);
+        color_max = d3.max(datasets[phase_index].nodes, d => d[color_metric]);
+        
+        colorScale = d3.scaleLinear()
+            .domain([color_min, color_max]); // default range is already [0,1]
+
+        // ref https://github.com/d3/d3-scale-chromatic
         d3.selectAll("circle")
-            .attr("fill", d => d3.interpolateRdYlBu(1 - d[color_metric]))
+//            .attr("fill", d => d3.interpolateSpectral(1 - colorScale(d[color_metric])))
+            .attr("fill", d => d3.interpolateRdYlBu(1 - colorScale(d[color_metric])))
     }
 
-d3.select("#outlineBox").on("click", () => updateHighlight());
-
-function updateHighlight()
+function updateHighlighted()
     {
-        highlight_on = d3.select('input#highlight-on:checked').node();
-        highlightStrokeColor = highlight_on ? "red" : "white";
-        d3.selectAll("circle")
-            .attr("stroke", d => d.key_player ? highlightStrokeColor : "white")
+        if (d3.select('input#highlight-on:checked').node())
+            {
+             d3.selectAll('circle')
+                .filter(d => d.key_player)
+                .attr("stroke", "red")
+                .attr("stroke-width", "1.25px");               
+            }
+   }
+
+function updateMarked()
+    {
+        d3.selectAll('circle')
+            .filter(d => marked_nodes.has(d.id))
+            .attr("stroke", "LimeGreen")
+            .attr("stroke-width", "4px");
     }
 
-draw_index = -1;
-draw_max = datasets.length;
+function updateNodeStrokes()
+    {
+        d3.selectAll('circle')
+            .attr("stroke", "white")
+            .attr("stroke-width", "1.25px");
+        updateHighlighted();
+        updateMarked();
+    }
 
-// ### TODO : how to pass parameters directly from listener?
+
+phase_index = -1;
+phase_max = datasets.length;
+
+// ### TODO : how to pass parameters directly from listener (in order to consolidate these)?
 d3.select("#prev").on("click", () => advance_minus());
 d3.select("#next").on("click", () => advance_plus());
 
 function advance_plus() { advance_draw(1) }
 function advance_minus() { advance_draw(-1) }
 
-const textPhase1 = "(Hover over key players for information.  Drag nodes to reposition.)"
+const textPhase1 = "(Hover over key players for information.  Drag nodes to reposition.  Right-click to mark/unmark nodes to track through phases.)"
 
 function advance_draw(amt)
     {
-        if ((draw_index + amt < 0) || (draw_index + amt > draw_max-1)) return;
-        draw_index += amt;
-//        draw_index = draw_index % draw_max;
-//        draw_index = (draw_index < 0) ? 0 : draw_index;
-//        draw_index = (draw_index > draw_max-1) ? draw_max-1 : draw_index;
-//        console.log(draw_index + 1)
-        update(datasets[draw_index]);
+        if ((phase_index + amt < 0) || (phase_index + amt > phase_max-1)) return;
+        phase_index += amt;
+        update(datasets[phase_index]);
         
         d3.select('#text-content h1')
-            .text(`Phase ${draw_index+1}`)
+            .text(`Phase ${phase_index+1}`)
         d3.select('#text-content #text-copy')
-            .text(draw_index == 0 ? textPhase1 : '')
+            .text(phase_index == 0 ? textPhase1 : '')
         
         d3.select('#prev')
-            .style("opacity", draw_index < 1 ? 0 : 100)
+            .style("opacity", phase_index < 1 ? 0 : 100)
         d3.select('#next')
-            .style("opacity", draw_index >= draw_max-1 ? 0 : 100)
+            .style("opacity", phase_index >= phase_max-1 ? 0 : 100)
 
-        return draw_index;
+        return phase_index;
     }
 
 
@@ -190,8 +212,17 @@ function mouseOver(event, d){
                                 innerWidth - 62 : event.pageX + .75*fixedRadius) + 'px')
         };
 
-function mouseOut(d){
+function mouseOut(event, d){
     tooltip.transition()		
         .duration(200)
         .style("opacity", 0);
 }
+
+function nodeRightClick(event, d) {
+    event.preventDefault();
+    
+    marked_nodes.has(d.id) ? marked_nodes.delete(d.id) : marked_nodes.add(d.id);
+    updateNodeStrokes();
+    }
+
+
