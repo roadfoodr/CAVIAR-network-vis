@@ -188,6 +188,9 @@ function advance_draw(amt)
             .style("opacity", phase_index < 1 ? 0 : 100)
         d3.select('#next')
             .style("opacity", phase_index >= phase_max-1 ? 0 : 100)
+        
+        d3.select('#controls')
+            .style("visibility", phase_index < 0 ? 'initial' : 'visible')
 
         return phase_index;
     }

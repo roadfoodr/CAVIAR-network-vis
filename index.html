@@ -28,6 +28,36 @@
 <p>Click <strong>Next</strong> to get started.</p>
             </span>
 
+            <hr>
+            <div id="controls">
+                <div id="control-buttons">
+                <form class="pure-form" id="colorButton">
+                    <label for="color-degree" class="pure-radio">
+                        <input type="radio" id="color-degree" name="optionsRadios" value="degree_cent" checked="" /> Degree centrality
+                        </label>
+                    <label for="color-between" class="pure-radio">
+                        <input type="radio" id="color-between" name="optionsRadios" value="betweenness" /> Betweenness centrality
+                    </label>
+                    <label for="color-eigenvector" class="pure-radio">
+                        <input type="radio" id="color-eigenvector" name="optionsRadios" value="eigenvector" /> Eigenvector centrality
+                    </label>
+                    <label for="color-hub" class="pure-radio">
+                        <input type="radio" id="color-hub" name="optionsRadios" value="hub" /> Hub score
+                    </label>
+                    <label for="color-authority" class="pure-radio">
+                        <input type="radio" id="color-authority" name="optionsRadios" value="authority" /> Authority score
+                    </label>
+                    <label for="color-fiedler" class="pure-radio">
+                        <input type="radio" id="color-fiedler" name="optionsRadios" value="fiedler" /> Spectral clustering
+                    </label>
+                </form>
+                <form class="pure-form" id="outlineBox">
+                    <label for="highlight-on" class="pure-checkbox">
+                        <input type="checkbox" id="highlight-on" value="Yes" />Highlight named players
+                    </label>
+                </form>
+                </div>
+            </div>
 
         </div>
         
@@ -39,32 +69,6 @@
             </span>
         </div>
         
-        <div id="controls">
-            <div id="control-buttons">
-            <form class="pure-form" id="colorButton">
-                <label for="color-degree" class="pure-radio">
-                    <input type="radio" id="color-degree" name="optionsRadios" value="degree_cent" checked="" /> Degree centrality
-                    </label>
-                <label for="color-between" class="pure-radio">
-                    <input type="radio" id="color-between" name="optionsRadios" value="betweenness" /> Betweenness centrality
-                </label>
-                <label for="color-eigenvector" class="pure-radio">
-                    <input type="radio" id="color-eigenvector" name="optionsRadios" value="eigenvector" /> Eigenvector centrality
-                </label>
-                <label for="color-hub" class="pure-radio">
-                    <input type="radio" id="color-hub" name="optionsRadios" value="hub" /> Hub score
-                </label>
-                <label for="color-authority" class="pure-radio">
-                    <input type="radio" id="color-authority" name="optionsRadios" value="authority" /> Authority score
-                </label>
-            </form>
-            <form class="pure-form" id="outlineBox">
-                <label for="highlight-on" class="pure-checkbox">
-                    <input type="checkbox" id="highlight-on" value="Yes" />Highlight named players
-                </label>
-            </form>
-            </div>
-        </div>
            
     </main>
 	<footer></footer>

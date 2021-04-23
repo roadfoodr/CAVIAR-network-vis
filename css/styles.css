@@ -57,17 +57,25 @@ div.tooltip {
 #controls {
     display: inline-block;
     position: fixed;
-    top: 825px;
+    float:right;
+    top: 595px;
     z-index: 1;
     margin-left: 0;
+    visibility: hidden;
 }
 
 #control-buttons {
     display: inline-block;
-    position: fixed;
-    top: 835px;
+/*    position: fixed;*/
+/*    top: 835px;*/
     z-index: 1;
-    margin-left: 30px;
+    margin-left: 10px;
+}
+
+.pure-form {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
 }
 
 #top-controls {
