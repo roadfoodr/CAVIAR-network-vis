@@ -43,9 +43,6 @@ div.tooltip {
     width: 900px;
 }
 
-
-/*see https://chartio.com/resources/tutorials/how-to-resize-an-svg-when-the-window-is-resized-in-d3-js/ */
-
 .svg-content {
     display: inline-block;
     position: relative;
@@ -55,28 +52,19 @@ div.tooltip {
     border-radius: 4px;
 }
 
-#controls {
+#display-controls {
     display: inline-block;
     position: fixed;
     float:right;
     top: 595px;
     z-index: 1;
-    margin-left: 0;
-    visibility: hidden;
-}
-
-#control-buttons {
-    display: inline-block;
-/*    position: fixed;*/
-/*    top: 835px;*/
-    z-index: 1;
     margin-left: 10px;
+    visibility: hidden;
 }
 
 .pure-form {
     border: 1px solid black;
     border-radius: 4px;
-
     margin: 10px;
     padding: 5px;
 }
@@ -87,3 +75,12 @@ div.tooltip {
     left: 10px;
     z-index: 10;
 }
+
+.caption {
+    position: absolute;
+    top: 750px;
+    left: 450px;
+    color: #4d4d4d;
+    visibility: hidden;
+}
+

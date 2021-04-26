@@ -1,6 +1,6 @@
 textPhase = [
     `
-    Marijuana is imported to Canada from Morocco, transiting through Spain.  (Hover over key players for information.  Drag nodes to reposition.  Right-click to mark/unmark nodes to track through phases.)
+    Marijuana is imported to Canada from Morocco, transiting through Spain.
     `,
 
     `
@@ -21,7 +21,7 @@ textPhase = [
     `,
 
     `
-    n1 begins to delegate contacts to n3.  Three seizures, totaling 30 kg of marijuana and 2 kg of cocaine.
+    n1, previously acting as a centralized hub, begins to delegate contacts to n3.  Three seizures, totaling 30 kg of marijuana and 2 kg of cocaine.
     `,
 
     `

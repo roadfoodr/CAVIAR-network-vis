@@ -128,8 +128,8 @@ function updateNodeColor()
 
         // ref https://github.com/d3/d3-scale-chromatic
         d3.selectAll("circle")
-//            .attr("fill", d => d3.interpolateSpectral(1 - colorScale(d[color_metric])))
-            .attr("fill", d => d3.interpolateRdYlBu(1 - colorScale(d[color_metric])))
+            .attr("fill", d => d3.interpolateSpectral(1 - colorScale(d[color_metric])))
+//            .attr("fill", d => d3.interpolateRdYlBu(1 - colorScale(d[color_metric])))
     }
 
 function updateHighlighted()
@@ -190,7 +190,9 @@ function advance_draw(amt)
         d3.select('#next')
             .style("opacity", phase_index >= phase_max-1 ? 0 : 100)
         
-        d3.select('#controls')
+        d3.select('#display-controls')
+            .style("visibility", phase_index < 0 ? 'initial' : 'visible')
+        d3.select('.caption')
             .style("visibility", phase_index < 0 ? 'initial' : 'visible')
 
         return phase_index;

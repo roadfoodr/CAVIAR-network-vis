@@ -8,8 +8,10 @@
 	<meta name="description" content="CAVIAR network, visualized">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css"  crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/microtip/microtip.css"  crossorigin="anonymous">
 	<link rel="stylesheet" href="./css/styles.css">
 <!--	<link rel="icon" type="image/x-icon" href=""/>-->
+    <script src="https://kit.fontawesome.com/f1021802dc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,22 +31,26 @@
             </span>
 
             <hr>
-            <div id="controls">
-                <div id="control-buttons">
-                <form class="pure-form" id="colorButton">
-                    <label for="color-degree" class="pure-radio">
-                        <input type="radio" id="color-degree" name="optionsRadios" value="degree_cent" checked="" /> Degree centrality
+            <div id="display-controls">
+                <form class="pure-form" id="colorButton"><i>Network metrics</i>
+                    <label for="color-degree" class="pure-radio" 
+                           data-microtip-position="top-right" data-microtip-size="medium" role="tooltip" aria-label="The number of neighbours of a node (most 'popular' player)" >
+                        <input type="radio" id="color-degree" name="optionsRadios" value="degree_cent" /> Degree centrality
                         </label>
-                    <label for="color-between" class="pure-radio">
-                        <input type="radio" id="color-between" name="optionsRadios" value="betweenness" /> Betweenness centrality
+                    <label for="color-between" class="pure-radio"
+                           data-microtip-position="top-right" data-microtip-size="medium" role="tooltip" aria-label="Across all node pairs that have the shortest path containing this node, the percentage that pass through this node (player whose removal could best break the network apart)" >
+                        <input type="radio" id="color-between" name="optionsRadios" value="betweenness" checked="" /> Betweenness centrality
                     </label>
-                    <label for="color-eigenvector" class="pure-radio">
+                    <label for="color-eigenvector" class="pure-radio"
+                           data-microtip-position="top-right" data-microtip-size="medium" role="tooltip" aria-label="Degree of connected nodes who are themselves connected to many nodes (most 'popular' players that is friends with popular players)" >
                         <input type="radio" id="color-eigenvector" name="optionsRadios" value="eigenvector" /> Eigenvector centrality
                     </label>
-                    <label for="color-hub" class="pure-radio">
+                    <label for="color-hub" class="pure-radio"
+                           data-microtip-position="top-right" data-microtip-size="medium" role="tooltip" aria-label="A node is hub-central to the extent that its out-links are to nodes that have many in-links" >
                         <input type="radio" id="color-hub" name="optionsRadios" value="hub" /> Hub score
                     </label>
-                    <label for="color-authority" class="pure-radio">
+                    <label for="color-authority" class="pure-radio"
+                           data-microtip-position="top-right" data-microtip-size="medium" role="tooltip" aria-label="A node is authority-central to the extent that its in-links are from nodes that have many out-links" >
                         <input type="radio" id="color-authority" name="optionsRadios" value="authority" /> Authority score
                     </label>
 <!--
@@ -54,12 +60,20 @@
 -->
                 </form>
                 <form class="pure-form" id="outlineBox">
-                    <label for="highlight-on" class="pure-checkbox">
+                    <label for="highlight-on" class="pure-checkbox"
+                           data-microtip-position="top-right" data-microtip-size="medium" role="tooltip" aria-label="Players identified by the police as key suspects" >
                         <input type="checkbox" id="highlight-on" value="Yes" />Highlight named players
                     </label>
                 </form>
-                </div>
             </div>
+
+          <div class="caption">
+            <caption>
+                <span data-microtip-position="top-right" data-microtip-size="medium" role="tooltip" aria-label="(Hover over key players for information. Drag nodes to reposition. Right-click to mark/unmark nodes to track through phases.)" >
+                    <i class="fas fa-lightbulb"></i>
+                </span>
+            </caption>
+          </div>
 
         </div>
         
